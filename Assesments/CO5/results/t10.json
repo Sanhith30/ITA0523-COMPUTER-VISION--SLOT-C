@@ -1,0 +1,117 @@
+{
+ "validity": {
+  "night person": {
+   "scrfd_rate": 100.0,
+   "hog_rate": 0.0,
+   "plate_localised": 0.0
+  },
+  "IR vehicle": {
+   "scrfd_rate": 0.0,
+   "hog_rate": 0.0,
+   "plate_localised": 100.0
+  },
+  "glare person": {
+   "scrfd_rate": 55.55555555555556,
+   "hog_rate": 0.0,
+   "plate_localised": 0.0
+  }
+ },
+ "cost_ms": {
+  "original": 47.40303219998623,
+  "light": 18.08074719999695,
+  "motion_gate": 0.5447248999985277
+ },
+ "budget": {
+  "total_fps": 180,
+  "per_frame_ms_1core": 5.555555555555555,
+  "per_frame_ms_4core": 22.22222222222222,
+  "original_required_cores": 8.532545795997521,
+  "light_required_cores": 3.254534495999451
+ },
+ "A": {
+  "wall_s": 6.924034133000021,
+  "stream_frames": 180,
+  "ms_per_proc": 36.65101851111103,
+  "cpu_pct": 94.16475821408231,
+  "lag_s": 0.9240341330000206,
+  "persons_total": 6,
+  "persons_alerted": 6,
+  "persons_within_3s": 6,
+  "alert_delays": [
+   0.56,
+   0.73,
+   0.9,
+   0.6,
+   0.77,
+   0.94
+  ],
+  "plates_total": 3,
+  "plates_ok": 3,
+  "plate_delays": [
+   0.15,
+   0.48,
+   0.34
+  ],
+  "false_alerts": 0,
+  "processed_pct": 16.666666666666664
+ },
+ "B": {
+  "wall_s": 9.711768033999988,
+  "stream_frames": 225,
+  "ms_per_proc": 36.70119528000087,
+  "cpu_pct": 91.02359085443553,
+  "lag_s": 3.711768033999988,
+  "persons_total": 6,
+  "persons_alerted": 6,
+  "persons_within_3s": 6,
+  "alert_delays": [
+   0.49,
+   0.59,
+   0.66,
+   0.76,
+   0.83,
+   0.93
+  ],
+  "plates_total": 3,
+  "plates_ok": 3,
+  "plate_delays": [
+   0.12,
+   0.25,
+   0.38
+  ],
+  "false_alerts": 0,
+  "processed_pct": 20.833333333333336
+ },
+ "C": {
+  "wall_s": 5.987998351999977,
+  "stream_frames": 180,
+  "ms_per_proc": 18.00370582222494,
+  "cpu_pct": 53.440228468519926,
+  "lag_s": -0.012001648000023124,
+  "persons_total": 6,
+  "persons_alerted": 0,
+  "persons_within_3s": 0,
+  "alert_delays": [
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "plates_total": 3,
+  "plates_ok": 2,
+  "plate_delays": [
+   0.11,
+   null,
+   0.24
+  ],
+  "false_alerts": 0,
+  "processed_pct": 16.666666666666664
+ },
+ "consent": {
+  "before": 3,
+  "after": 0,
+  "templates_left": 145
+ }
+}

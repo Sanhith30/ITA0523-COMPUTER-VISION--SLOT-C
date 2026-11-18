@@ -1,0 +1,301 @@
+{
+ "res": {
+  "A1 every frame": {
+   "S1 single entry": {
+    "frame_acc": 100.0,
+    "id_switches": 0,
+    "wrong_records": 0,
+    "dup_records": 0,
+    "missed": 0,
+    "false_admit": 0,
+    "latency": [
+     0.14529462900009094
+    ],
+    "never_decided": 0,
+    "n_people": 1,
+    "ms_mean": 46.735570551996716,
+    "ms_p95": 53.069752599913045
+   },
+   "S2 crossing": {
+    "frame_acc": 96.66666666666667,
+    "id_switches": 2,
+    "wrong_records": 0,
+    "dup_records": 0,
+    "missed": 0,
+    "false_admit": 0,
+    "latency": [
+     0.1917908210002679,
+     0.1917908210002679
+    ],
+    "never_decided": 0,
+    "n_people": 2,
+    "ms_mean": 65.51370282666691,
+    "ms_p95": 81.59731380009129
+   },
+   "S3 occlusion": {
+    "frame_acc": 66.0,
+    "id_switches": 0,
+    "wrong_records": 0,
+    "dup_records": 0,
+    "missed": 0,
+    "false_admit": 0,
+    "latency": [
+     0.1334115859999656
+    ],
+    "never_decided": 0,
+    "n_people": 1,
+    "ms_mean": 38.655333519986925,
+    "ms_p95": 54.307451199974764
+   },
+   "S4 low light": {
+    "frame_acc": 87.66666666666667,
+    "id_switches": 2,
+    "wrong_records": 0,
+    "dup_records": 0,
+    "missed": 0,
+    "false_admit": 0,
+    "latency": [
+     0.19819311300011577,
+     0.19819311300011577
+    ],
+    "never_decided": 0,
+    "n_people": 2,
+    "ms_mean": 63.88568775998616,
+    "ms_p95": 84.18488875006459
+   },
+   "overall": {
+    "ms_mean": 54.00026945216624,
+    "fps": 18.51842611425867,
+    "ms_p95": 75.45433580000918
+   }
+  },
+  "A3 every 3rd frame": {
+   "S1 single entry": {
+    "frame_acc": 100.0,
+    "id_switches": 0,
+    "wrong_records": 0,
+    "dup_records": 0,
+    "missed": 0,
+    "false_admit": 0,
+    "latency": [
+     0.045728607000228294
+    ],
+    "never_decided": 0,
+    "n_people": 1,
+    "ms_mean": 15.941818808005337,
+    "ms_p95": 52.27326419999372
+   },
+   "S2 crossing": {
+    "frame_acc": 97.0,
+    "id_switches": 2,
+    "wrong_records": 0,
+    "dup_records": 0,
+    "missed": 0,
+    "false_admit": 0,
+    "latency": [
+     0.06326743200020246,
+     0.06326743200020246
+    ],
+    "never_decided": 0,
+    "n_people": 2,
+    "ms_mean": 21.520317700005762,
+    "ms_p95": 68.1552345
+   },
+   "S3 occlusion": {
+    "frame_acc": 66.0,
+    "id_switches": 0,
+    "wrong_records": 0,
+    "dup_records": 0,
+    "missed": 0,
+    "false_admit": 0,
+    "latency": [
+     0.04389587099990422
+    ],
+    "never_decided": 0,
+    "n_people": 1,
+    "ms_mean": 12.720816793337994,
+    "ms_p95": 45.65988350000225
+   },
+   "S4 low light": {
+    "frame_acc": 87.0,
+    "id_switches": 2,
+    "wrong_records": 0,
+    "dup_records": 0,
+    "missed": 0,
+    "false_admit": 0,
+    "latency": [
+     0.06230153299975427,
+     0.06230153299975427
+    ],
+    "never_decided": 0,
+    "n_people": 2,
+    "ms_mean": 20.334445979998844,
+    "ms_p95": 67.95219910007972
+   },
+   "overall": {
+    "ms_mean": 17.70272073391662,
+    "fps": 56.48849208156469,
+    "ms_p95": 67.00852169997233
+   }
+  },
+  "B detect+track, recognise once": {
+   "S1 single entry": {
+    "frame_acc": 59.199999999999996,
+    "id_switches": 1,
+    "wrong_records": 0,
+    "dup_records": 0,
+    "missed": 0,
+    "false_admit": 0,
+    "latency": [
+     0.06889982200004852
+    ],
+    "never_decided": 0,
+    "n_people": 1,
+    "ms_mean": 8.606041567987631,
+    "ms_p95": 30.634417199962627
+   },
+   "S2 crossing": {
+    "frame_acc": 86.0,
+    "id_switches": 1,
+    "wrong_records": 0,
+    "dup_records": 0,
+    "missed": 0,
+    "false_admit": 0,
+    "latency": [
+     0.08549714800005859,
+     0.08549714800005859
+    ],
+    "never_decided": 0,
+    "n_people": 2,
+    "ms_mean": 9.826617733331963,
+    "ms_p95": 37.0665502500514
+   },
+   "S3 occlusion": {
+    "frame_acc": 54.666666666666664,
+    "id_switches": 2,
+    "wrong_records": 0,
+    "dup_records": 0,
+    "missed": 0,
+    "false_admit": 0,
+    "latency": [
+     0.047582046999878
+    ],
+    "never_decided": 0,
+    "n_people": 1,
+    "ms_mean": 5.091512106666111,
+    "ms_p95": 26.98403289998623
+   },
+   "S4 low light": {
+    "frame_acc": 70.0,
+    "id_switches": 4,
+    "wrong_records": 0,
+    "dup_records": 0,
+    "missed": 0,
+    "false_admit": 0,
+    "latency": [
+     0.07937841800003298,
+     0.07937841800003298
+    ],
+    "never_decided": 0,
+    "n_people": 2,
+    "ms_mean": 23.115503033341156,
+    "ms_p95": 69.52519070003962
+   },
+   "overall": {
+    "ms_mean": 11.792695873042328,
+    "fps": 84.79825230513775,
+    "ms_p95": 41.155584100101805
+   }
+  },
+  "C periodic detect + voting": {
+   "S1 single entry": {
+    "frame_acc": 92.0,
+    "id_switches": 0,
+    "wrong_records": 0,
+    "dup_records": 0,
+    "missed": 0,
+    "false_admit": 0,
+    "latency": [
+     0.1335576490000676
+    ],
+    "never_decided": 0,
+    "n_people": 1,
+    "ms_mean": 9.42836011199688,
+    "ms_p95": 48.64613720005764
+   },
+   "S2 crossing": {
+    "frame_acc": 86.66666666666667,
+    "id_switches": 2,
+    "wrong_records": 0,
+    "dup_records": 0,
+    "missed": 0,
+    "false_admit": 0,
+    "latency": [
+     0.19182864099934704,
+     0.19182864099934704
+    ],
+    "never_decided": 0,
+    "n_people": 2,
+    "ms_mean": 13.26576171998416,
+    "ms_p95": 64.83963044993288
+   },
+   "S3 occlusion": {
+    "frame_acc": 50.0,
+    "id_switches": 0,
+    "wrong_records": 0,
+    "dup_records": 0,
+    "missed": 0,
+    "false_admit": 0,
+    "latency": [
+     0.13152093200005766
+    ],
+    "never_decided": 0,
+    "n_people": 1,
+    "ms_mean": 7.431062326665294,
+    "ms_p95": 45.259807099932914
+   },
+   "S4 low light": {
+    "frame_acc": 61.66666666666667,
+    "id_switches": 2,
+    "wrong_records": 0,
+    "dup_records": 0,
+    "missed": 0,
+    "false_admit": 0,
+    "latency": [
+     0.1796794859997135,
+     0.37554723799917156
+    ],
+    "never_decided": 0,
+    "n_people": 2,
+    "ms_mean": 12.09711255332119,
+    "ms_p95": 66.30281489993877
+   },
+   "overall": {
+    "ms_mean": 10.604583485209055,
+    "fps": 94.29884741770094,
+    "ms_p95": 64.14015890002247
+   }
+  }
+ },
+ "comp": {
+  "detect_ms": 23.379197625018833,
+  "embed_ms": 20.862963000013224,
+  "kcf_update_ms": 4.508914350014948,
+  "full_1080p_detect_ms_est": 23.379197625018833,
+  "detect_1080p_input_ms": 23.052615250009012
+ },
+ "th": 0.5405448011885908,
+ "exp": 1.0,
+ "cal": {
+  "1.0": 0.26686392426490785,
+  "1.15": 0.34742910265922544,
+  "1.3": 0.4409467339515686,
+  "1.5": 0.5642646133899689
+ },
+ "frames": {
+  "S1 single entry": 125,
+  "S2 crossing": 150,
+  "S3 occlusion": 150,
+  "S4 low light": 150
+ }
+}

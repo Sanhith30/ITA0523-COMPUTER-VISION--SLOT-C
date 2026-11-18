@@ -1,0 +1,3 @@
+A Eigenfaces {'enrol-style': 92.0, 'lighting': 23.333333333333332, 'mask': 44.666666666666664, 'glasses': 78.66666666666666, 'low-res+noise': 92.0} EER 24.0
+B LBPH {'enrol-style': 92.0, 'lighting': 90.0, 'mask': 91.33333333333333, 'glasses': 92.0, 'low-res+noise': 47.333333333333336} EER 16.0
+C ArcFace-MBF {'enrol-style': 98.0, 'lighting': 98.66666666666667, 'mask': 90.0, 'glasses': 96.0, 'low-res+noise': 92.66666666666666} EER 6.0

@@ -1,0 +1,528 @@
+{
+ "res": {
+  "A Frame differencing|S1 quiet|guard=False": {
+   "alerts": [],
+   "ms": 0.09353067200148264,
+   "false_alarms": 0
+  },
+  "B MOG2 lr=auto|S1 quiet|guard=False": {
+   "alerts": [],
+   "ms": 0.7743505693335161,
+   "false_alarms": 0
+  },
+  "C Farneback flow|S1 quiet|guard=False": {
+   "alerts": [],
+   "ms": 3.5704580153358925,
+   "false_alarms": 0
+  },
+  "A Frame differencing|S2 lights|guard=False": {
+   "alerts": [],
+   "ms": 0.0870556186672123,
+   "false_alarms": 0
+  },
+  "B MOG2 lr=auto|S2 lights|guard=False": {
+   "alerts": [
+    304
+   ],
+   "ms": 1.0892583686627404,
+   "false_alarms": 1
+  },
+  "C Farneback flow|S2 lights|guard=False": {
+   "alerts": [],
+   "ms": 3.446751443333748,
+   "false_alarms": 0
+  },
+  "A Frame differencing|S3 tree|guard=False": {
+   "alerts": [
+    12,
+    88,
+    173,
+    249,
+    325,
+    401,
+    698,
+    774,
+    940,
+    1270
+   ],
+   "ms": 0.15047820866766415,
+   "false_alarms": 10
+  },
+  "B MOG2 lr=auto|S3 tree|guard=False": {
+   "alerts": [
+    10
+   ],
+   "ms": 0.806439376667034,
+   "false_alarms": 1
+  },
+  "C Farneback flow|S3 tree|guard=False": {
+   "alerts": [
+    129,
+    216,
+    311,
+    433,
+    734,
+    958,
+    1271
+   ],
+   "ms": 3.4963886839980964,
+   "false_alarms": 7
+  },
+  "A Frame differencing|S4 fast intruder + tree|guard=False": {
+   "alerts": [
+    12,
+    88,
+    173,
+    249,
+    325,
+    401,
+    689,
+    765,
+    940,
+    1270
+   ],
+   "ms": 0.13021147400498498,
+   "delay_s": 0.04,
+   "false_before": 4,
+   "persist_pct": 0.0
+  },
+  "B MOG2 lr=auto|S4 fast intruder + tree|guard=False": {
+   "alerts": [
+    10,
+    271,
+    1004,
+    1080
+   ],
+   "ms": 0.9175447346668383,
+   "delay_s": 0.04,
+   "false_before": 1,
+   "persist_pct": 0.0
+  },
+  "C Farneback flow|S4 fast intruder + tree|guard=False": {
+   "alerts": [
+    216,
+    292,
+    433,
+    734,
+    958,
+    1271
+   ],
+   "ms": 3.399244568669625,
+   "delay_s": 0.04,
+   "false_before": 1,
+   "persist_pct": 0.0
+  },
+  "A Frame differencing|S5 slow intruder + tree|guard=False": {
+   "alerts": [
+    12,
+    88,
+    173,
+    249,
+    325,
+    401,
+    489,
+    689,
+    765,
+    940,
+    1270
+   ],
+   "ms": 0.12473843866352279,
+   "delay_s": null,
+   "false_before": 5,
+   "persist_pct": 0.0
+  },
+  "B MOG2 lr=auto|S5 slow intruder + tree|guard=False": {
+   "alerts": [
+    10,
+    379,
+    455,
+    531,
+    607
+   ],
+   "ms": 0.8225641439983823,
+   "delay_s": 0.0,
+   "false_before": 1,
+   "persist_pct": 0.0
+  },
+  "C Farneback flow|S5 slow intruder + tree|guard=False": {
+   "alerts": [
+    216,
+    311,
+    433,
+    732,
+    958,
+    1271
+   ],
+   "ms": 3.340732024671221,
+   "delay_s": null,
+   "false_before": 2,
+   "persist_pct": 0.0
+  },
+  "A Frame differencing|S1 quiet|guard=True": {
+   "alerts": [],
+   "ms": 0.08929684200090075,
+   "false_alarms": 0
+  },
+  "B MOG2 lr=auto|S1 quiet|guard=True": {
+   "alerts": [],
+   "ms": 0.7556560753367497,
+   "false_alarms": 0
+  },
+  "C Farneback flow|S1 quiet|guard=True": {
+   "alerts": [],
+   "ms": 3.503882156003177,
+   "false_alarms": 0
+  },
+  "A Frame differencing|S2 lights|guard=True": {
+   "alerts": [],
+   "ms": 0.09447668799778815,
+   "false_alarms": 0
+  },
+  "B MOG2 lr=auto|S2 lights|guard=True": {
+   "alerts": [],
+   "ms": 1.2591842113350442,
+   "false_alarms": 0
+  },
+  "C Farneback flow|S2 lights|guard=True": {
+   "alerts": [],
+   "ms": 3.3354983346636495,
+   "false_alarms": 0
+  },
+  "A Frame differencing|S3 tree|guard=True": {
+   "alerts": [
+    12,
+    88,
+    173,
+    249,
+    325,
+    401,
+    698,
+    774,
+    940,
+    1270
+   ],
+   "ms": 0.12815492133252823,
+   "false_alarms": 10
+  },
+  "B MOG2 lr=auto|S3 tree|guard=True": {
+   "alerts": [
+    10
+   ],
+   "ms": 0.7898203673345657,
+   "false_alarms": 1
+  },
+  "C Farneback flow|S3 tree|guard=True": {
+   "alerts": [
+    129,
+    216,
+    311,
+    433,
+    734,
+    958,
+    1271
+   ],
+   "ms": 3.435342757333577,
+   "false_alarms": 7
+  },
+  "A Frame differencing|S4 fast intruder + tree|guard=True": {
+   "alerts": [
+    12,
+    88,
+    173,
+    249,
+    325,
+    401,
+    689,
+    765,
+    940,
+    1270
+   ],
+   "ms": 0.1270236573341208,
+   "delay_s": 0.04,
+   "false_before": 4,
+   "persist_pct": 0.0
+  },
+  "B MOG2 lr=auto|S4 fast intruder + tree|guard=True": {
+   "alerts": [
+    10,
+    271,
+    1038
+   ],
+   "ms": 0.8750820173337767,
+   "delay_s": 0.04,
+   "false_before": 1,
+   "persist_pct": 0.0
+  },
+  "C Farneback flow|S4 fast intruder + tree|guard=True": {
+   "alerts": [
+    216,
+    292,
+    433,
+    734,
+    958,
+    1271
+   ],
+   "ms": 3.3840687206688926,
+   "delay_s": 0.04,
+   "false_before": 1,
+   "persist_pct": 0.0
+  },
+  "A Frame differencing|S5 slow intruder + tree|guard=True": {
+   "alerts": [
+    12,
+    88,
+    173,
+    249,
+    325,
+    401,
+    489,
+    689,
+    765,
+    940,
+    1270
+   ],
+   "ms": 0.1275053466627772,
+   "delay_s": null,
+   "false_before": 5,
+   "persist_pct": 0.0
+  },
+  "B MOG2 lr=auto|S5 slow intruder + tree|guard=True": {
+   "alerts": [
+    10,
+    379,
+    455,
+    531,
+    607
+   ],
+   "ms": 0.8363012913328021,
+   "delay_s": 0.0,
+   "false_before": 1,
+   "persist_pct": 0.0
+  },
+  "C Farneback flow|S5 slow intruder + tree|guard=True": {
+   "alerts": [
+    216,
+    311,
+    433,
+    732,
+    958,
+    1271
+   ],
+   "ms": 3.476896368001235,
+   "delay_s": null,
+   "false_before": 2,
+   "persist_pct": 0.0
+  }
+ },
+ "lr": {
+  "0.0": {
+   "S2 lights": {
+    "alerts": [],
+    "ms": 0.9415373860015279,
+    "false_alarms": 0
+   },
+   "S3 tree": {
+    "alerts": [
+     5,
+     82,
+     163,
+     239,
+     319,
+     407,
+     485,
+     561,
+     641,
+     720,
+     800,
+     876,
+     955,
+     1031,
+     1109,
+     1185,
+     1265,
+     1341,
+     1417,
+     1493
+    ],
+    "ms": 0.782782770670868,
+    "false_alarms": 20
+   },
+   "S5 slow intruder + tree": {
+    "alerts": [
+     5,
+     82,
+     163,
+     239,
+     319,
+     395,
+     471,
+     547,
+     623,
+     699,
+     775,
+     851,
+     927,
+     1003,
+     1079,
+     1155,
+     1231,
+     1307,
+     1383,
+     1459
+    ],
+    "ms": 0.8055943979967802,
+    "delay_s": 0.0,
+    "false_before": 5,
+    "persist_pct": 100.0
+   },
+   "S2 lights (no global-change guard)": {
+    "alerts": [
+     304,
+     380,
+     456,
+     532,
+     623,
+     699
+    ],
+    "ms": 0.8845607320013187,
+    "false_alarms": 6
+   }
+  },
+  "0.0005": {
+   "S2 lights": {
+    "alerts": [],
+    "ms": 1.309854432666422,
+    "false_alarms": 0
+   },
+   "S3 tree": {
+    "alerts": [
+     5,
+     82,
+     163,
+     239,
+     319,
+     421,
+     497,
+     670,
+     746,
+     822,
+     918,
+     994,
+     1291
+    ],
+    "ms": 0.8077732193391967,
+    "false_alarms": 13
+   },
+   "S5 slow intruder + tree": {
+    "alerts": [
+     5,
+     82,
+     163,
+     239,
+     319,
+     395,
+     471,
+     547,
+     623,
+     699,
+     775,
+     851,
+     928,
+     1291
+    ],
+    "ms": 0.8074996566670052,
+    "delay_s": 0.0,
+    "false_before": 5,
+    "persist_pct": 0.0
+   },
+   "S2 lights (no global-change guard)": {
+    "alerts": [
+     304,
+     380,
+     456
+    ],
+    "ms": 1.3717917133332473,
+    "false_alarms": 3
+   }
+  },
+  "0.005": {
+   "S2 lights": {
+    "alerts": [],
+    "ms": 1.045558467999399,
+    "false_alarms": 0
+   },
+   "S3 tree": {
+    "alerts": [
+     5
+    ],
+    "ms": 0.7861493386711421,
+    "false_alarms": 1
+   },
+   "S5 slow intruder + tree": {
+    "alerts": [
+     5,
+     375,
+     451,
+     527,
+     603
+    ],
+    "ms": 0.7813671279991468,
+    "delay_s": 0.0,
+    "false_before": 1,
+    "persist_pct": 0.0
+   },
+   "S2 lights (no global-change guard)": {
+    "alerts": [
+     304
+    ],
+    "ms": 1.0192296839973096,
+    "false_alarms": 1
+   }
+  },
+  "0.05": {
+   "S2 lights": {
+    "alerts": [],
+    "ms": 0.8447392986648387,
+    "false_alarms": 0
+   },
+   "S3 tree": {
+    "alerts": [
+     5,
+     422
+    ],
+    "ms": 0.8829121386669007,
+    "false_alarms": 2
+   },
+   "S5 slow intruder + tree": {
+    "alerts": [
+     5,
+     422
+    ],
+    "ms": 0.830521559997275,
+    "delay_s": null,
+    "false_before": 1,
+    "persist_pct": 0.0
+   },
+   "S2 lights (no global-change guard)": {
+    "alerts": [],
+    "ms": 0.7982393999973283,
+    "false_alarms": 0
+   }
+  }
+ },
+ "speed_ms": {
+  "A Frame differencing": 0.12981572333577182,
+  "B MOG2 lr=auto": 0.7735482733361702,
+  "C Farneback flow": 3.3339521966710586
+ },
+ "enter": {
+  "S1 quiet": null,
+  "S2 lights": null,
+  "S3 tree": null,
+  "S4 fast intruder + tree": 267,
+  "S5 slow intruder + tree": 375
+ },
+ "minutes": 3.0,
+ "fps": 25,
+ "n": 1500
+}

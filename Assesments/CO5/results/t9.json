@@ -1,0 +1,142 @@
+{
+ "arch": {
+  "A sequential": {
+   "gate_crossing_acc": 96.66666666666667,
+   "gate_lowlight_acc": 91.0,
+   "id_switches": 2,
+   "plate_reads": [
+    {
+     "cond": "clean",
+     "gt": "KA13CX2621",
+     "pred": "KA13CX2621",
+     "ok": true,
+     "char_acc": 1.0
+    },
+    {
+     "cond": "skew",
+     "gt": "GJ49JE3903",
+     "pred": "GJ49JE3903",
+     "ok": true,
+     "char_acc": 1.0
+    },
+    {
+     "cond": "blur",
+     "gt": "WB07ZF7931",
+     "pred": "WB07ZF7931",
+     "ok": true,
+     "char_acc": 1.0
+    }
+   ],
+   "plate_ok": 3,
+   "plate_char_acc": 100.0,
+   "alert_latency_s": 4.546701999,
+   "corridor_false_alarms": 1,
+   "wall_s": 15.710726129000001,
+   "rounds_per_s": 12.730156350369157,
+   "cpu_pct": 99.04061640587204,
+   "frame_age_ms_mean": 4078.347284070002,
+   "frame_age_ms_p95": 7582.0521506,
+   "frame_age_ms_last": 7749.626060000004,
+   "drops": {},
+   "loc": 9
+  },
+  "B event-triggered": {
+   "gate_crossing_acc": 96.66666666666667,
+   "gate_lowlight_acc": 91.0,
+   "id_switches": 2,
+   "plate_reads": [
+    {
+     "cond": "clean",
+     "gt": "KA13CX2621",
+     "pred": "KA13CX2621",
+     "ok": true,
+     "char_acc": 1.0
+    },
+    {
+     "cond": "skew",
+     "gt": "GJ49JE3903",
+     "pred": "GJ49JE3903",
+     "ok": true,
+     "char_acc": 1.0
+    },
+    {
+     "cond": "blur",
+     "gt": "WB07ZF7931",
+     "pred": "WB07ZF7931",
+     "ok": true,
+     "char_acc": 1.0
+    }
+   ],
+   "plate_ok": 3,
+   "plate_char_acc": 100.0,
+   "alert_latency_s": 4.204299542999998,
+   "corridor_false_alarms": 1,
+   "wall_s": 15.234325564999999,
+   "rounds_per_s": 13.128247728897739,
+   "cpu_pct": 98.59314044402203,
+   "frame_age_ms_mean": 3756.648582085,
+   "frame_age_ms_p95": 7058.607998300001,
+   "frame_age_ms_last": 7274.280504000004,
+   "drops": {},
+   "loc": 13
+  },
+  "C multithreaded": {
+   "gate_crossing_acc": 97.0,
+   "gate_lowlight_acc": 87.0,
+   "id_switches": 3,
+   "plate_reads": [
+    {
+     "cond": "clean",
+     "gt": "KA13CX2621",
+     "pred": "KA13CX2621",
+     "ok": true,
+     "char_acc": 1.0
+    },
+    {
+     "cond": "skew",
+     "gt": "GJ49JE3903",
+     "pred": "GJ49JE3903",
+     "ok": true,
+     "char_acc": 1.0
+    },
+    {
+     "cond": "blur",
+     "gt": "WB07ZF7931",
+     "pred": "WB07ZF7931",
+     "ok": true,
+     "char_acc": 1.0
+    }
+   ],
+   "plate_ok": 3,
+   "plate_char_acc": 100.0,
+   "alert_latency_s": 0.921599693999994,
+   "corridor_false_alarms": 1,
+   "wall_s": 9.601991132999999,
+   "rounds_per_s": 20.82901319421579,
+   "cpu_pct": 83.52434290880531,
+   "frame_age_ms_mean": 48.38054983800731,
+   "frame_age_ms_p95": 186.8406157999928,
+   "frame_age_ms_last": null,
+   "drops": {
+    "gate": 112,
+    "plate": 25
+   },
+   "loc": 26
+  }
+ },
+ "budget": {
+  "capture_decode": 6.4,
+  "motion_gate": 1.1651992000025757,
+  "face_detect": 27.01492612499834,
+  "face_embed_match": 48.735564125001574,
+  "plate_localise": 0.9166399999969599,
+  "plate_ocr": 27.682758624999693,
+  "corridor_mog2": 0.8340214500002219
+ },
+ "enter": 67,
+ "plates": [
+  "KA13CX2621",
+  "GJ49JE3903",
+  "WB07ZF7931"
+ ]
+}

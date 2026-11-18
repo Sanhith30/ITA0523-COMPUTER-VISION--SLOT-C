@@ -1,0 +1,17 @@
+A Frame differencing|S1 quiet|guard=True {'ms': 0.09, 'false_alarms': 0}
+B MOG2 lr=auto|S1 quiet|guard=True {'ms': 0.76, 'false_alarms': 0}
+C Farneback flow|S1 quiet|guard=True {'ms': 3.5, 'false_alarms': 0}
+A Frame differencing|S2 lights|guard=True {'ms': 0.09, 'false_alarms': 0}
+B MOG2 lr=auto|S2 lights|guard=True {'ms': 1.26, 'false_alarms': 0}
+C Farneback flow|S2 lights|guard=True {'ms': 3.34, 'false_alarms': 0}
+A Frame differencing|S3 tree|guard=True {'ms': 0.13, 'false_alarms': 10}
+B MOG2 lr=auto|S3 tree|guard=True {'ms': 0.79, 'false_alarms': 1}
+C Farneback flow|S3 tree|guard=True {'ms': 3.44, 'false_alarms': 7}
+A Frame differencing|S4 fast intruder + tree|guard=True {'ms': 0.13, 'delay_s': 0.04, 'false_before': 4, 'persist_pct': 0.0}
+B MOG2 lr=auto|S4 fast intruder + tree|guard=True {'ms': 0.88, 'delay_s': 0.04, 'false_before': 1, 'persist_pct': 0.0}
+C Farneback flow|S4 fast intruder + tree|guard=True {'ms': 3.38, 'delay_s': 0.04, 'false_before': 1, 'persist_pct': 0.0}
+A Frame differencing|S5 slow intruder + tree|guard=True {'ms': 0.13, 'delay_s': None, 'false_before': 5, 'persist_pct': 0.0}
+B MOG2 lr=auto|S5 slow intruder + tree|guard=True {'ms': 0.84, 'delay_s': 0.0, 'false_before': 1, 'persist_pct': 0.0}
+C Farneback flow|S5 slow intruder + tree|guard=True {'ms': 3.48, 'delay_s': None, 'false_before': 2, 'persist_pct': 0.0}
+{0.0: {'S2 lights': {'alerts': [], 'ms': 0.9415373860015279, 'false_alarms': 0}, 'S3 tree': {'alerts': [5, 82, 163, 239, 319, 407, 485, 561, 641, 720, 800, 876, 955, 1031, 1109, 1185, 1265, 1341, 1417, 1493], 'ms': 0.782782770670868, 'false_alarms': 20}, 'S5 slow intruder + tree': {'alerts': [5, 82, 163, 239, 319, 395, 471, 547, 623, 699, 775, 851, 927, 1003, 1079, 1155, 1231, 1307, 1383, 1459], 'ms': 0.8055943979967802, 'delay_s': 0.0, 'false_before': 5, 'persist_pct': 100.0}, 'S2 lights (no global-change guard)': {'alerts': [304, 380, 456, 532, 623, 699], 'ms': 0.8845607320013187, 'false_alarms': 6}}, 0.0005: {'S2 lights': {'alerts': [], 'ms': 1.309854432666422, 'false_alarms': 0}, 'S3 tree': {'alerts': [5, 82, 163, 239, 319, 421, 497, 670, 746, 822, 918, 994, 1291], 'ms': 0.8077732193391967, 'false_alarms': 13}, 'S5 slow intruder + tree': {'alerts': [5, 82, 163, 239, 319, 395, 471, 547, 623, 699, 775, 851, 928, 1291], 'ms': 0.8074996566670052, 'delay_s': 0.0, 'false_before': 5, 'persist_pct': 0.0}, 'S2 lights (no global-change guard)': {'alerts': [304, 380, 456], 'ms': 1.3717917133332473, 'false_alarms': 3}}, 0.005: {'S2 lights': {'alerts': [], 'ms': 1.045558467999399, 'false_alarms': 0}, 'S3 tree': {'alerts': [5], 'ms': 0.7861493386711421, 'false_alarms': 1}, 'S5 slow intruder + tree': {'alerts': [5, 375, 451, 527, 603], 'ms': 0.7813671279991468, 'delay_s': 0.0, 'false_before': 1, 'persist_pct': 0.0}, 'S2 lights (no global-change guard)': {'alerts': [304], 'ms': 1.0192296839973096, 'false_alarms': 1}}, 0.05: {'S2 lights': {'alerts': [], 'ms': 0.8447392986648387, 'false_alarms': 0}, 'S3 tree': {'alerts': [5, 422], 'ms': 0.8829121386669007, 'false_alarms': 2}, 'S5 slow intruder + tree': {'alerts': [5, 422], 'ms': 0.830521559997275, 'delay_s': None, 'false_before': 1, 'persist_pct': 0.0}, 'S2 lights (no global-change guard)': {'alerts': [], 'ms': 0.7982393999973283, 'false_alarms': 0}}}
+{'A Frame differencing': 0.12981572333577182, 'B MOG2 lr=auto': 0.7735482733361702, 'C Farneback flow': 3.3339521966710586}

@@ -1,0 +1,32 @@
+{
+ "opencv": "4.10.0",
+ "imread_shape": [
+  40,
+  60,
+  3
+ ],
+ "imread_pixel_BGR": [
+  0,
+  0,
+  255
+ ],
+ "imdecode_equal_imread": true,
+ "gray_shape": [
+  40,
+  60
+ ],
+ "gray_value": 76,
+ "rgb_pixel_after_cvtColor": [
+  255,
+  0,
+  0
+ ],
+ "missing_file_returns": "None",
+ "scene_shape": [
+  1080,
+  1920,
+  3
+ ],
+ "python": "3.12.3",
+ "contrib_face": true
+}

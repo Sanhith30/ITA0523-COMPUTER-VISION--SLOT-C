@@ -1,0 +1,26 @@
+A Tesseract|clean {'char_acc': 87.0, 'plate_acc': 60.0, 'ms': 125.0}
+A Tesseract|blur {'char_acc': 81.0, 'plate_acc': 10.0, 'ms': 109.0}
+A Tesseract|skew {'char_acc': 86.0, 'plate_acc': 50.0, 'ms': 114.4}
+A Tesseract|glare {'char_acc': 0.0, 'plate_acc': 0.0, 'ms': 0.0}
+A Tesseract|dirt {'char_acc': 76.0, 'plate_acc': 30.0, 'ms': 116.3}
+A Tesseract|new font {'char_acc': 98.0, 'plate_acc': 90.0, 'ms': 117.1}
+A Tesseract|all {'char_acc': 71.3, 'plate_acc': 40.0, 'ms': 116.2}
+B Contour+kNN|clean {'char_acc': 89.0, 'plate_acc': 80.0, 'ms': 9.2}
+B Contour+kNN|blur {'char_acc': 16.0, 'plate_acc': 0.0, 'ms': 2.8}
+B Contour+kNN|skew {'char_acc': 79.0, 'plate_acc': 70.0, 'ms': 8.1}
+B Contour+kNN|glare {'char_acc': 0.0, 'plate_acc': 0.0, 'ms': 0.0}
+B Contour+kNN|dirt {'char_acc': 68.0, 'plate_acc': 0.0, 'ms': 8.4}
+B Contour+kNN|new font {'char_acc': 70.0, 'plate_acc': 10.0, 'ms': 8.1}
+B Contour+kNN|all {'char_acc': 53.7, 'plate_acc': 26.7, 'ms': 7.2}
+C Deep OCR|clean {'char_acc': 90.0, 'plate_acc': 90.0, 'ms': 25.0}
+C Deep OCR|blur {'char_acc': 100.0, 'plate_acc': 100.0, 'ms': 22.9}
+C Deep OCR|skew {'char_acc': 90.0, 'plate_acc': 90.0, 'ms': 24.2}
+C Deep OCR|glare {'char_acc': 0.0, 'plate_acc': 0.0, 'ms': 0.0}
+C Deep OCR|dirt {'char_acc': 90.0, 'plate_acc': 90.0, 'ms': 25.5}
+C Deep OCR|new font {'char_acc': 100.0, 'plate_acc': 100.0, 'ms': 24.7}
+C Deep OCR|all {'char_acc': 78.3, 'plate_acc': 78.3, 'ms': 24.4}
+{'clean': 90.0, 'blur': 100.0, 'skew': 90.0, 'glare': 0.0, 'dirt': 90.0, 'new font': 100.0}
+{'A Tesseract': [('S->5', 9), ('O->0', 6), ('E->6', 4), ('O->9', 2), ('0->C', 2), ('T->7', 2), ('I->J', 2), ('I->1', 2)], 'B Contour+kNN': [('I->1', 8), ('8->3', 4), ('B->H', 3), ('J->3', 2), ('1->2', 2), ('6->8', 1), ('I->5', 1), ('I->0', 1)], 'C Deep OCR': []}
+{'raw_no_localisation': {'clean': {'char_acc': 82.0, 'plate_acc': 10.0}, 'skew': {'char_acc': 24.000000000000004, 'plate_acc': 0.0}}, 'crop_no_deskew': {'clean': {'char_acc': 93.0, 'plate_acc': 60.0}, 'skew': {'char_acc': 72.22222222222221, 'plate_acc': 11.11111111111111}}}
+{"A Tesseract": {"0": {"accepted_pct": 45.0, "wrong_among_accepted_pct": 11.11111111111111, "accepted": 27}, "60": {"accepted_pct": 23.333333333333332, "wrong_among_accepted_pct": 7.142857142857142, "accepted": 14}, "80": {"accepted_pct": 16.666666666666664, "wrong_among_accepted_pct": 0.0, "accepted": 10}, "90": {"accepted_pct": 13.333333333333334, "wrong_among_accepted_pct": 0.0, "accepted": 8}, "95": {"accepted_pct": 0.0, "wrong_among_accepted_pct": 0.0, "accepted": 0}}, "B Contour+kNN": {"0": {"accepted_pct": 23.333333333333332, "wrong_among_accepted_pct": 0.0, "accepted": 14}, "60": {"accepted_pct": 0.0, "wrong_among_accepted_pct": 0.0, "accepted": 0}, "80": {"accepted_pct": 0.0, "wrong
+{'A Tesseract': {'char_acc': 100.0, 'ms': 167.99697574999564}, 'C Deep OCR': {'char_acc': 98.8095238095238, 'ms': 33.40063624999819}}

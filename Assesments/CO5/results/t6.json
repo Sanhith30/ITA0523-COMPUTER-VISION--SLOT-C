@@ -1,0 +1,2287 @@
+{
+ "summary": {
+  "A Tesseract|clean": {
+   "char_acc": 86.99999999999999,
+   "plate_acc": 60.0,
+   "ms": 124.96988777777713
+  },
+  "A Tesseract|blur": {
+   "char_acc": 81.0,
+   "plate_acc": 10.0,
+   "ms": 108.95445289997951
+  },
+  "A Tesseract|skew": {
+   "char_acc": 86.0,
+   "plate_acc": 50.0,
+   "ms": 114.3688428888557
+  },
+  "A Tesseract|glare": {
+   "char_acc": 0.0,
+   "plate_acc": 0.0,
+   "ms": 0.0
+  },
+  "A Tesseract|dirt": {
+   "char_acc": 76.0,
+   "plate_acc": 30.0,
+   "ms": 116.2510729999945
+  },
+  "A Tesseract|new font": {
+   "char_acc": 98.00000000000001,
+   "plate_acc": 90.0,
+   "ms": 117.08595830001514
+  },
+  "A Tesseract|all": {
+   "char_acc": 71.33333333333333,
+   "plate_acc": 40.0,
+   "ms": 116.18536904254452
+  },
+  "B Contour+kNN|clean": {
+   "char_acc": 89.0,
+   "plate_acc": 80.0,
+   "ms": 9.175318222231807
+  },
+  "B Contour+kNN|blur": {
+   "char_acc": 16.0,
+   "plate_acc": 0.0,
+   "ms": 2.8213723000021673
+  },
+  "B Contour+kNN|skew": {
+   "char_acc": 79.0,
+   "plate_acc": 70.0,
+   "ms": 8.121974666639492
+  },
+  "B Contour+kNN|glare": {
+   "char_acc": 0.0,
+   "plate_acc": 0.0,
+   "ms": 0.0
+  },
+  "B Contour+kNN|dirt": {
+   "char_acc": 68.0,
+   "plate_acc": 0.0,
+   "ms": 8.444639222211158
+  },
+  "B Contour+kNN|new font": {
+   "char_acc": 70.0,
+   "plate_acc": 10.0,
+   "ms": 8.05159230000072
+  },
+  "B Contour+kNN|all": {
+   "char_acc": 53.66666666666667,
+   "plate_acc": 26.666666666666668,
+   "ms": 7.242702872335553
+  },
+  "C Deep OCR|clean": {
+   "char_acc": 90.0,
+   "plate_acc": 90.0,
+   "ms": 24.959511333349838
+  },
+  "C Deep OCR|blur": {
+   "char_acc": 100.0,
+   "plate_acc": 100.0,
+   "ms": 22.944093000000976
+  },
+  "C Deep OCR|skew": {
+   "char_acc": 90.0,
+   "plate_acc": 90.0,
+   "ms": 24.174598333338004
+  },
+  "C Deep OCR|glare": {
+   "char_acc": 0.0,
+   "plate_acc": 0.0,
+   "ms": 0.0
+  },
+  "C Deep OCR|dirt": {
+   "char_acc": 90.0,
+   "plate_acc": 90.0,
+   "ms": 25.49940122225457
+  },
+  "C Deep OCR|new font": {
+   "char_acc": 100.0,
+   "plate_acc": 100.0,
+   "ms": 24.7494541000151
+  },
+  "C Deep OCR|all": {
+   "char_acc": 78.33333333333333,
+   "plate_acc": 78.33333333333333,
+   "ms": 24.439086574481752
+  }
+ },
+ "errors": {
+  "A Tesseract": [
+   [
+    "S->5",
+    9
+   ],
+   [
+    "O->0",
+    6
+   ],
+   [
+    "E->6",
+    4
+   ],
+   [
+    "O->9",
+    2
+   ],
+   [
+    "0->C",
+    2
+   ],
+   [
+    "T->7",
+    2
+   ],
+   [
+    "I->J",
+    2
+   ],
+   [
+    "I->1",
+    2
+   ]
+  ],
+  "B Contour+kNN": [
+   [
+    "I->1",
+    8
+   ],
+   [
+    "8->3",
+    4
+   ],
+   [
+    "B->H",
+    3
+   ],
+   [
+    "J->3",
+    2
+   ],
+   [
+    "1->2",
+    2
+   ],
+   [
+    "6->8",
+    1
+   ],
+   [
+    "I->5",
+    1
+   ],
+   [
+    "I->0",
+    1
+   ]
+  ],
+  "C Deep OCR": []
+ },
+ "localised_pct": {
+  "clean": 90.0,
+  "blur": 100.0,
+  "skew": 90.0,
+  "glare": 0.0,
+  "dirt": 90.0,
+  "new font": 100.0
+ },
+ "whatif": {
+  "raw_no_localisation": {
+   "clean": {
+    "char_acc": 82.0,
+    "plate_acc": 10.0
+   },
+   "skew": {
+    "char_acc": 24.000000000000004,
+    "plate_acc": 0.0
+   }
+  },
+  "crop_no_deskew": {
+   "clean": {
+    "char_acc": 93.0,
+    "plate_acc": 60.0
+   },
+   "skew": {
+    "char_acc": 72.22222222222221,
+    "plate_acc": 11.11111111111111
+   }
+  }
+ },
+ "verification": {
+  "A Tesseract": {
+   "0": {
+    "accepted_pct": 45.0,
+    "wrong_among_accepted_pct": 11.11111111111111,
+    "accepted": 27
+   },
+   "60": {
+    "accepted_pct": 23.333333333333332,
+    "wrong_among_accepted_pct": 7.142857142857142,
+    "accepted": 14
+   },
+   "80": {
+    "accepted_pct": 16.666666666666664,
+    "wrong_among_accepted_pct": 0.0,
+    "accepted": 10
+   },
+   "90": {
+    "accepted_pct": 13.333333333333334,
+    "wrong_among_accepted_pct": 0.0,
+    "accepted": 8
+   },
+   "95": {
+    "accepted_pct": 0.0,
+    "wrong_among_accepted_pct": 0.0,
+    "accepted": 0
+   }
+  },
+  "B Contour+kNN": {
+   "0": {
+    "accepted_pct": 23.333333333333332,
+    "wrong_among_accepted_pct": 0.0,
+    "accepted": 14
+   },
+   "60": {
+    "accepted_pct": 0.0,
+    "wrong_among_accepted_pct": 0.0,
+    "accepted": 0
+   },
+   "80": {
+    "accepted_pct": 0.0,
+    "wrong_among_accepted_pct": 0.0,
+    "accepted": 0
+   },
+   "90": {
+    "accepted_pct": 0.0,
+    "wrong_among_accepted_pct": 0.0,
+    "accepted": 0
+   },
+   "95": {
+    "accepted_pct": 0.0,
+    "wrong_among_accepted_pct": 0.0,
+    "accepted": 0
+   }
+  },
+  "C Deep OCR": {
+   "0": {
+    "accepted_pct": 78.33333333333333,
+    "wrong_among_accepted_pct": 0.0,
+    "accepted": 47
+   },
+   "60": {
+    "accepted_pct": 78.33333333333333,
+    "wrong_among_accepted_pct": 0.0,
+    "accepted": 47
+   },
+   "80": {
+    "accepted_pct": 78.33333333333333,
+    "wrong_among_accepted_pct": 0.0,
+    "accepted": 47
+   },
+   "90": {
+    "accepted_pct": 76.66666666666667,
+    "wrong_among_accepted_pct": 0.0,
+    "accepted": 46
+   },
+   "95": {
+    "accepted_pct": 75.0,
+    "wrong_among_accepted_pct": 0.0,
+    "accepted": 45
+   }
+  }
+ },
+ "idcards": {
+  "A Tesseract": {
+   "char_acc": 100.0,
+   "ms": 167.99697574999564
+  },
+  "C Deep OCR": {
+   "char_acc": 98.8095238095238,
+   "ms": 33.40063624999819
+  }
+ },
+ "knn_train": 3888,
+ "n_per_cond": 10,
+ "rows": [
+  {
+   "cond": "clean",
+   "tech": "A Tesseract",
+   "gt": "KA13CX2621",
+   "pred": "KA13CX2621",
+   "conf": 0.0,
+   "ms": 195.38572200008275,
+   "char_acc": 1.0,
+   "exact": true,
+   "localised": true
+  },
+  {
+   "cond": "clean",
+   "tech": "B Contour+kNN",
+   "gt": "KA13CX2621",
+   "pred": "KA13CX2621",
+   "conf": 14.999589562416077,
+   "ms": 9.346871999923678,
+   "char_acc": 1.0,
+   "exact": true,
+   "localised": true
+  },
+  {
+   "cond": "clean",
+   "tech": "C Deep OCR",
+   "gt": "KA13CX2621",
+   "pred": "KA13CX2621",
+   "conf": 99.36520040035248,
+   "ms": 27.07283400002325,
+   "char_acc": 1.0,
+   "exact": true,
+   "localised": true
+  },
+  {
+   "cond": "clean",
+   "tech": "A Tesseract",
+   "gt": "GJ64MR0313",
+   "pred": "GJ64MRO0313",
+   "conf": 58.0,
+   "ms": 125.88305000008404,
+   "char_acc": 0.9,
+   "exact": false,
+   "localised": true
+  },
+  {
+   "cond": "clean",
+   "tech": "B Contour+kNN",
+   "gt": "GJ64MR0313",
+   "pred": "GJ64MR0313",
+   "conf": 4.827543377876282,
+   "ms": 9.556621999990966,
+   "char_acc": 1.0,
+   "exact": true,
+   "localised": true
+  },
+  {
+   "cond": "clean",
+   "tech": "C Deep OCR",
+   "gt": "GJ64MR0313",
+   "pred": "GJ64MR0313",
+   "conf": 99.40601110458374,
+   "ms": 27.634255000066332,
+   "char_acc": 1.0,
+   "exact": true,
+   "localised": true
+  },
+  {
+   "cond": "clean",
+   "tech": "A Tesseract",
+   "gt": "KA14BC8751",
+   "pred": "KA14BC8751",
+   "conf": 86.0,
+   "ms": 117.01405499991324,
+   "char_acc": 1.0,
+   "exact": true,
+   "localised": true
+  },
+  {
+   "cond": "clean",
+   "tech": "B Contour+kNN",
+   "gt": "KA14BC8751",
+   "pred": "KA14BC8751",
+   "conf": 14.62855076789856,
+   "ms": 8.976615000051424,
+   "char_acc": 1.0,
+   "exact": true,
+   "localised": true
+  },
+  {
+   "cond": "clean",
+   "tech": "C Deep OCR",
+   "gt": "KA14BC8751",
+   "pred": "KA14BC8751",
+   "conf": 99.84615981578827,
+   "ms": 24.760618999948747,
+   "char_acc": 1.0,
+   "exact": true,
+   "localised": true
+  },
+  {
+   "cond": "clean",
+   "tech": "A Tesseract",
+   "gt": "TN40RW6275",
+   "pred": "ITN40RW6275",
+   "conf": 64.0,
+   "ms": 115.48521999998229,
+   "char_acc": 0.9,
+   "exact": false,
+   "localised": true
+  },
+  {
+   "cond": "clean",
+   "tech": "B Contour+kNN",
+   "gt": "TN40RW6275",
+   "pred": "TN40RW6275",
+   "conf": 8.952491283416748,
+   "ms": 8.624859000065044,
+   "char_acc": 1.0,
+   "exact": true,
+   "localised": true
+  },
+  {
+   "cond": "clean",
+   "tech": "C Deep OCR",
+   "gt": "TN40RW6275",
+   "pred": "TN40RW6275",
+   "conf": 95.8368194103241,
+   "ms": 26.580454999930225,
+   "char_acc": 1.0,
+   "exact": true,
+   "localised": true
+  },
+  {
+   "cond": "clean",
+   "tech": "A Tesseract",
+   "gt": "UP83AE8109",
+   "pred": "UP83AE8109",
+   "conf": 0.0,
+   "ms": 112.02415000002475,
+   "char_acc": 1.0,
+   "exact": true,
+   "localised": true
+  },
+  {
+   "cond": "clean",
+   "tech": "B Contour+kNN",
+   "gt": "UP83AE8109",
+   "pred": "UP83AE8109",
+   "conf": 9.827114582061768,
+   "ms": 8.5053830000561,
+   "char_acc": 1.0,
+   "exact": true,
+   "localised": true
+  },
+  {
+   "cond": "clean",
+   "tech": "C Deep OCR",
+   "gt": "UP83AE8109",
+   "pred": "UP83AE8109",
+   "conf": 98.94022822380066,
+   "ms": 22.353366000061214,
+   "char_acc": 1.0,
+   "exact": true,
+   "localised": true
+  },
+  {
+   "cond": "clean",
+   "tech": "A Tesseract",
+   "gt": "AP98CJ3699",
+   "pred": "AP98CJ3699",
+   "conf": 92.0,
+   "ms": 114.19978799995079,
+   "char_acc": 1.0,
+   "exact": true,
+   "localised": true
+  },
+  {
+   "cond": "clean",
+   "tech": "B Contour+kNN",
+   "gt": "AP98CJ3699",
+   "pred": "AP96CJ3699",
+   "conf": -85.2988862991333,
+   "ms": 12.155882000001839,
+   "char_acc": 0.9,
+   "exact": false,
+   "localised": true
+  },
+  {
+   "cond": "clean",
+   "tech": "C Deep OCR",
+   "gt": "AP98CJ3699",
+   "pred": "AP98CJ3699",
+   "conf": 99.7954660654068,
+   "ms": 23.797481000087828,
+   "char_acc": 1.0,
+   "exact": true,
+   "localised": true
+  },
+  {
+   "cond": "clean",
+   "tech": "A Tesseract",
+   "gt": "RJ24EG9932",
+   "pred": "RJ24EG9932",
+   "conf": 77.0,
+   "ms": 115.40665899997293,
+   "char_acc": 1.0,
+   "exact": true,
+   "localised": true
+  },
+  {
+   "cond": "clean",
+   "tech": "B Contour+kNN",
+   "gt": "RJ24EG9932",
+   "pred": "RJ24EG9932",
+   "conf": 14.422473192214966,
+   "ms": 8.593127000040113,
+   "char_acc": 1.0,
+   "exact": true,
+   "localised": true
+  },
+  {
+   "cond": "clean",
+   "tech": "C Deep OCR",
+   "gt": "RJ24EG9932",
+   "pred": "RJ24EG9932",
+   "conf": 99.37788605690002,
+   "ms": 22.16100299995105,
+   "char_acc": 1.0,
+   "exact": true,
+   "localised": true
+  },
+  {
+   "cond": "clean",
+   "tech": "A Tesseract",
+   "gt": "MH82TW1417",
+   "pred": "MH82TW1417",
+   "conf": 90.0,
+   "ms": 113.3270849999235,
+   "char_acc": 1.0,
+   "exact": true,
+   "localised": true
+  },
+  {
+   "cond": "clean",
+   "tech": "B Contour+kNN",
+   "gt": "MH82TW1417",
+   "pred": "MH82TW1417",
+   "conf": 5.401575922966003,
+   "ms": 8.430156000031275,
+   "char_acc": 1.0,
+   "exact": true,
+   "localised": true
+  },
+  {
+   "cond": "clean",
+   "tech": "C Deep OCR",
+   "gt": "MH82TW1417",
+   "pred": "MH82TW1417",
+   "conf": 99.72082316875458,
+   "ms": 25.398248000101376,
+   "char_acc": 1.0,
+   "exact": true,
+   "localised": true
+  },
+  {
+   "cond": "clean",
+   "tech": "A Tesseract",
+   "gt": "TS89LU6890",
+   "pred": "",
+   "conf": 0.0,
+   "ms": 0.0,
+   "char_acc": 0,
+   "exact": false,
+   "localised": false
+  },
+  {
+   "cond": "clean",
+   "tech": "B Contour+kNN",
+   "gt": "TS89LU6890",
+   "pred": "",
+   "conf": 0.0,
+   "ms": 0.0,
+   "char_acc": 0,
+   "exact": false,
+   "localised": false
+  },
+  {
+   "cond": "clean",
+   "tech": "C Deep OCR",
+   "gt": "TS89LU6890",
+   "pred": "",
+   "conf": 0.0,
+   "ms": 0.0,
+   "char_acc": 0,
+   "exact": false,
+   "localised": false
+  },
+  {
+   "cond": "clean",
+   "tech": "A Tesseract",
+   "gt": "DL86NT5696",
+   "pred": "DL8ENT5696",
+   "conf": 62.0,
+   "ms": 116.00326100005987,
+   "char_acc": 0.9,
+   "exact": false,
+   "localised": true
+  },
+  {
+   "cond": "clean",
+   "tech": "B Contour+kNN",
+   "gt": "DL86NT5696",
+   "pred": "DL86NT5696",
+   "conf": -67.6806173324585,
+   "ms": 8.388347999925827,
+   "char_acc": 1.0,
+   "exact": true,
+   "localised": true
+  },
+  {
+   "cond": "clean",
+   "tech": "C Deep OCR",
+   "gt": "DL86NT5696",
+   "pred": "DL86NT5696",
+   "conf": 99.33355569839478,
+   "ms": 24.877340999978514,
+   "char_acc": 1.0,
+   "exact": true,
+   "localised": true
+  },
+  {
+   "cond": "blur",
+   "tech": "A Tesseract",
+   "gt": "MH95WT5167",
+   "pred": "MHO5WT5167",
+   "conf": 0.0,
+   "ms": 109.7006599999304,
+   "char_acc": 0.9,
+   "exact": false,
+   "localised": true
+  },
+  {
+   "cond": "blur",
+   "tech": "B Contour+kNN",
+   "gt": "MH95WT5167",
+   "pred": "I1",
+   "conf": 33.43111276626587,
+   "ms": 3.2208690000743445,
+   "char_acc": 0.09999999999999998,
+   "exact": false,
+   "localised": true
+  },
+  {
+   "cond": "blur",
+   "tech": "C Deep OCR",
+   "gt": "MH95WT5167",
+   "pred": "MH95WT5167",
+   "conf": 98.7424623966217,
+   "ms": 23.926934999963123,
+   "char_acc": 1.0,
+   "exact": true,
+   "localised": true
+  },
+  {
+   "cond": "blur",
+   "tech": "A Tesseract",
+   "gt": "WB65RG6374",
+   "pred": "WBE5RG6374",
+   "conf": 70.0,
+   "ms": 109.38830400004917,
+   "char_acc": 0.9,
+   "exact": false,
+   "localised": true
+  },
+  {
+   "cond": "blur",
+   "tech": "B Contour+kNN",
+   "gt": "WB65RG6374",
+   "pred": "74",
+   "conf": -47.17949867248535,
+   "ms": 3.43880800005536,
+   "char_acc": 0.19999999999999996,
+   "exact": false,
+   "localised": true
+  },
+  {
+   "cond": "blur",
+   "tech": "C Deep OCR",
+   "gt": "WB65RG6374",
+   "pred": "WB65RG6374",
+   "conf": 99.82967674732208,
+   "ms": 23.050944999909007,
+   "char_acc": 1.0,
+   "exact": true,
+   "localised": true
+  },
+  {
+   "cond": "blur",
+   "tech": "A Tesseract",
+   "gt": "KL81CZ7815",
+   "pred": "KLB810Z7815",
+   "conf": 0.0,
+   "ms": 111.9850850000148,
+   "char_acc": 0.8,
+   "exact": false,
+   "localised": true
+  },
+  {
+   "cond": "blur",
+   "tech": "B Contour+kNN",
+   "gt": "KL81CZ7815",
+   "pred": "1815",
+   "conf": -34.61325168609619,
+   "ms": 4.595832000063638,
+   "char_acc": 0.4,
+   "exact": false,
+   "localised": true
+  },
+  {
+   "cond": "blur",
+   "tech": "C Deep OCR",
+   "gt": "KL81CZ7815",
+   "pred": "KL81CZ7815",
+   "conf": 99.54730689525604,
+   "ms": 23.034210999981042,
+   "char_acc": 1.0,
+   "exact": true,
+   "localised": true
+  },
+  {
+   "cond": "blur",
+   "tech": "A Tesseract",
+   "gt": "RJ77ML6956",
+   "pred": "RIT7MLE956",
+   "conf": 0.0,
+   "ms": 106.92473900007826,
+   "char_acc": 0.7,
+   "exact": false,
+   "localised": true
+  },
+  {
+   "cond": "blur",
+   "tech": "B Contour+kNN",
+   "gt": "RJ77ML6956",
+   "pred": "",
+   "conf": 0.0,
+   "ms": 0.619812999957503,
+   "char_acc": 0,
+   "exact": false,
+   "localised": true
+  },
+  {
+   "cond": "blur",
+   "tech": "C Deep OCR",
+   "gt": "RJ77ML6956",
+   "pred": "RJ77ML6956",
+   "conf": 95.2178955078125,
+   "ms": 22.91630599995642,
+   "char_acc": 1.0,
+   "exact": true,
+   "localised": true
+  },
+  {
+   "cond": "blur",
+   "tech": "A Tesseract",
+   "gt": "TS01RP3934",
+   "pred": "TSOIRP3934",
+   "conf": 0.0,
+   "ms": 108.13046099997337,
+   "char_acc": 0.8,
+   "exact": false,
+   "localised": true
+  },
+  {
+   "cond": "blur",
+   "tech": "B Contour+kNN",
+   "gt": "TS01RP3934",
+   "pred": "I139",
+   "conf": -22.811177968978882,
+   "ms": 4.537572999993245,
+   "char_acc": 0.30000000000000004,
+   "exact": false,
+   "localised": true
+  },
+  {
+   "cond": "blur",
+   "tech": "C Deep OCR",
+   "gt": "TS01RP3934",
+   "pred": "TS01RP3934",
+   "conf": 99.2741072177887,
+   "ms": 22.616368000058173,
+   "char_acc": 1.0,
+   "exact": true,
+   "localised": true
+  },
+  {
+   "cond": "blur",
+   "tech": "A Tesseract",
+   "gt": "RJ01HP3234",
+   "pred": "RJOIHP3234",
+   "conf": 26.0,
+   "ms": 106.67362099991351,
+   "char_acc": 0.8,
+   "exact": false,
+   "localised": true
+  },
+  {
+   "cond": "blur",
+   "tech": "B Contour+kNN",
+   "gt": "RJ01HP3234",
+   "pred": "13",
+   "conf": -37.30682849884033,
+   "ms": 3.207622999980231,
+   "char_acc": 0.19999999999999996,
+   "exact": false,
+   "localised": true
+  },
+  {
+   "cond": "blur",
+   "tech": "C Deep OCR",
+   "gt": "RJ01HP3234",
+   "pred": "RJ01HP3234",
+   "conf": 99.23436105251312,
+   "ms": 23.075846000097044,
+   "char_acc": 1.0,
+   "exact": true,
+   "localised": true
+  },
+  {
+   "cond": "blur",
+   "tech": "A Tesseract",
+   "gt": "TS42YU7379",
+   "pred": "TS421U7379",
+   "conf": 28.0,
+   "ms": 109.39801799997895,
+   "char_acc": 0.9,
+   "exact": false,
+   "localised": true
+  },
+  {
+   "cond": "blur",
+   "tech": "B Contour+kNN",
+   "gt": "TS42YU7379",
+   "pred": "I",
+   "conf": 8.203916549682617,
+   "ms": 2.1085930000026565,
+   "char_acc": 0,
+   "exact": false,
+   "localised": true
+  },
+  {
+   "cond": "blur",
+   "tech": "C Deep OCR",
+   "gt": "TS42YU7379",
+   "pred": "TS42YU7379",
+   "conf": 99.57886874675751,
+   "ms": 23.19817900001908,
+   "char_acc": 1.0,
+   "exact": true,
+   "localised": true
+  },
+  {
+   "cond": "blur",
+   "tech": "A Tesseract",
+   "gt": "DL05UW8296",
+   "pred": "DLOSUW8296",
+   "conf": 67.0,
+   "ms": 106.78316199994242,
+   "char_acc": 0.8,
+   "exact": false,
+   "localised": true
+  },
+  {
+   "cond": "blur",
+   "tech": "B Contour+kNN",
+   "gt": "DL05UW8296",
+   "pred": "",
+   "conf": 0.0,
+   "ms": 0.6286949999321223,
+   "char_acc": 0,
+   "exact": false,
+   "localised": true
+  },
+  {
+   "cond": "blur",
+   "tech": "C Deep OCR",
+   "gt": "DL05UW8296",
+   "pred": "DL05UW8296",
+   "conf": 99.28837299346924,
+   "ms": 22.114961999932348,
+   "char_acc": 1.0,
+   "exact": true,
+   "localised": true
+  },
+  {
+   "cond": "blur",
+   "tech": "A Tesseract",
+   "gt": "TS78SE9132",
+   "pred": "TS78SE9132",
+   "conf": 0.0,
+   "ms": 113.0592299999762,
+   "char_acc": 1.0,
+   "exact": true,
+   "localised": true
+  },
+  {
+   "cond": "blur",
+   "tech": "B Contour+kNN",
+   "gt": "TS78SE9132",
+   "pred": "I7132",
+   "conf": -13.239541053771973,
+   "ms": 5.212908999965293,
+   "char_acc": 0.4,
+   "exact": false,
+   "localised": true
+  },
+  {
+   "cond": "blur",
+   "tech": "C Deep OCR",
+   "gt": "TS78SE9132",
+   "pred": "TS78SE9132",
+   "conf": 99.62314426898956,
+   "ms": 22.231239000007008,
+   "char_acc": 1.0,
+   "exact": true,
+   "localised": true
+  },
+  {
+   "cond": "blur",
+   "tech": "A Tesseract",
+   "gt": "WB50PL9645",
+   "pred": "WBSOPLOE4S",
+   "conf": 0.0,
+   "ms": 107.50124899993807,
+   "char_acc": 0.5,
+   "exact": false,
+   "localised": true
+  },
+  {
+   "cond": "blur",
+   "tech": "B Contour+kNN",
+   "gt": "WB50PL9645",
+   "pred": "",
+   "conf": 0.0,
+   "ms": 0.6430079999972804,
+   "char_acc": 0,
+   "exact": false,
+   "localised": true
+  },
+  {
+   "cond": "blur",
+   "tech": "C Deep OCR",
+   "gt": "WB50PL9645",
+   "pred": "WB50PL9645",
+   "conf": 99.21734392642975,
+   "ms": 23.27593900008651,
+   "char_acc": 1.0,
+   "exact": true,
+   "localised": true
+  },
+  {
+   "cond": "skew",
+   "tech": "A Tesseract",
+   "gt": "HR24MJ4686",
+   "pred": "",
+   "conf": 0.0,
+   "ms": 0.0,
+   "char_acc": 0,
+   "exact": false,
+   "localised": false
+  },
+  {
+   "cond": "skew",
+   "tech": "B Contour+kNN",
+   "gt": "HR24MJ4686",
+   "pred": "",
+   "conf": 0.0,
+   "ms": 0.0,
+   "char_acc": 0,
+   "exact": false,
+   "localised": false
+  },
+  {
+   "cond": "skew",
+   "tech": "C Deep OCR",
+   "gt": "HR24MJ4686",
+   "pred": "",
+   "conf": 0.0,
+   "ms": 0.0,
+   "char_acc": 0,
+   "exact": false,
+   "localised": false
+  },
+  {
+   "cond": "skew",
+   "tech": "A Tesseract",
+   "gt": "KA57VS8147",
+   "pred": "KAS7VS8147",
+   "conf": 78.0,
+   "ms": 122.26382400001512,
+   "char_acc": 0.9,
+   "exact": false,
+   "localised": true
+  },
+  {
+   "cond": "skew",
+   "tech": "B Contour+kNN",
+   "gt": "KA57VS8147",
+   "pred": "KA57VS8147",
+   "conf": 17.44275665283203,
+   "ms": 11.494461999973282,
+   "char_acc": 1.0,
+   "exact": true,
+   "localised": true
+  },
+  {
+   "cond": "skew",
+   "tech": "C Deep OCR",
+   "gt": "KA57VS8147",
+   "pred": "KA57VS8147",
+   "conf": 99.42628562450409,
+   "ms": 32.498879999934616,
+   "char_acc": 1.0,
+   "exact": true,
+   "localised": true
+  },
+  {
+   "cond": "skew",
+   "tech": "A Tesseract",
+   "gt": "TS82CR0115",
+   "pred": "TS82CRO115",
+   "conf": 0.0,
+   "ms": 109.3491350000022,
+   "char_acc": 0.9,
+   "exact": false,
+   "localised": true
+  },
+  {
+   "cond": "skew",
+   "tech": "B Contour+kNN",
+   "gt": "TS82CR0115",
+   "pred": "TS82CR0115",
+   "conf": 50.187804222106934,
+   "ms": 8.657118999963132,
+   "char_acc": 1.0,
+   "exact": true,
+   "localised": true
+  },
+  {
+   "cond": "skew",
+   "tech": "C Deep OCR",
+   "gt": "TS82CR0115",
+   "pred": "TS82CR0115",
+   "conf": 97.92622745037079,
+   "ms": 23.435732999928405,
+   "char_acc": 1.0,
+   "exact": true,
+   "localised": true
+  },
+  {
+   "cond": "skew",
+   "tech": "A Tesseract",
+   "gt": "GJ88DM0805",
+   "pred": "GJ88DM080S",
+   "conf": 0.0,
+   "ms": 115.1133049999089,
+   "char_acc": 0.9,
+   "exact": false,
+   "localised": true
+  },
+  {
+   "cond": "skew",
+   "tech": "B Contour+kNN",
+   "gt": "GJ88DM0805",
+   "pred": "GJ88DM0805",
+   "conf": 55.022900342941284,
+   "ms": 8.36513499996272,
+   "char_acc": 1.0,
+   "exact": true,
+   "localised": true
+  },
+  {
+   "cond": "skew",
+   "tech": "C Deep OCR",
+   "gt": "GJ88DM0805",
+   "pred": "GJ88DM0805",
+   "conf": 99.57429051399231,
+   "ms": 21.971815000028982,
+   "char_acc": 1.0,
+   "exact": true,
+   "localised": true
+  },
+  {
+   "cond": "skew",
+   "tech": "A Tesseract",
+   "gt": "MH64ZN1880",
+   "pred": "MH64ZN1880",
+   "conf": 0.0,
+   "ms": 108.3164819999638,
+   "char_acc": 1.0,
+   "exact": true,
+   "localised": true
+  },
+  {
+   "cond": "skew",
+   "tech": "B Contour+kNN",
+   "gt": "MH64ZN1880",
+   "pred": "MH64ZN1880",
+   "conf": 17.643972516059875,
+   "ms": 10.27824999994209,
+   "char_acc": 1.0,
+   "exact": true,
+   "localised": true
+  },
+  {
+   "cond": "skew",
+   "tech": "C Deep OCR",
+   "gt": "MH64ZN1880",
+   "pred": "MH64ZN1880",
+   "conf": 98.82168173789978,
+   "ms": 24.252194000041527,
+   "char_acc": 1.0,
+   "exact": true,
+   "localised": true
+  },
+  {
+   "cond": "skew",
+   "tech": "A Tesseract",
+   "gt": "GJ75LR2018",
+   "pred": "GJ75LR2018",
+   "conf": 90.0,
+   "ms": 124.49860499998522,
+   "char_acc": 1.0,
+   "exact": true,
+   "localised": true
+  },
+  {
+   "cond": "skew",
+   "tech": "B Contour+kNN",
+   "gt": "GJ75LR2018",
+   "pred": "",
+   "conf": 0.0,
+   "ms": 0.6736440000167931,
+   "char_acc": 0,
+   "exact": false,
+   "localised": true
+  },
+  {
+   "cond": "skew",
+   "tech": "C Deep OCR",
+   "gt": "GJ75LR2018",
+   "pred": "GJ75LR2018",
+   "conf": 99.34243381023407,
+   "ms": 24.452595000070687,
+   "char_acc": 1.0,
+   "exact": true,
+   "localised": true
+  },
+  {
+   "cond": "skew",
+   "tech": "A Tesseract",
+   "gt": "TN58KF0133",
+   "pred": "TNS8KF0133",
+   "conf": 0.0,
+   "ms": 117.12003799993909,
+   "char_acc": 0.9,
+   "exact": false,
+   "localised": true
+  },
+  {
+   "cond": "skew",
+   "tech": "B Contour+kNN",
+   "gt": "TN58KF0133",
+   "pred": "TN58KF0I33",
+   "conf": -70.8982162475586,
+   "ms": 8.42150699998001,
+   "char_acc": 0.9,
+   "exact": false,
+   "localised": true
+  },
+  {
+   "cond": "skew",
+   "tech": "C Deep OCR",
+   "gt": "TN58KF0133",
+   "pred": "TN58KF0133",
+   "conf": 99.01868224143982,
+   "ms": 23.6331070000233,
+   "char_acc": 1.0,
+   "exact": true,
+   "localised": true
+  },
+  {
+   "cond": "skew",
+   "tech": "A Tesseract",
+   "gt": "HR58JL3784",
+   "pred": "HR58JL3784",
+   "conf": 0.0,
+   "ms": 111.08909299991865,
+   "char_acc": 1.0,
+   "exact": true,
+   "localised": true
+  },
+  {
+   "cond": "skew",
+   "tech": "B Contour+kNN",
+   "gt": "HR58JL3784",
+   "pred": "HR58JL3784",
+   "conf": 47.35208761692047,
+   "ms": 8.385540999938712,
+   "char_acc": 1.0,
+   "exact": true,
+   "localised": true
+  },
+  {
+   "cond": "skew",
+   "tech": "C Deep OCR",
+   "gt": "HR58JL3784",
+   "pred": "HR58JL3784",
+   "conf": 99.26585078239441,
+   "ms": 22.171071000002485,
+   "char_acc": 1.0,
+   "exact": true,
+   "localised": true
+  },
+  {
+   "cond": "skew",
+   "tech": "A Tesseract",
+   "gt": "GJ25MU6062",
+   "pred": "GJ25MU6062",
+   "conf": 0.0,
+   "ms": 107.89807399999063,
+   "char_acc": 1.0,
+   "exact": true,
+   "localised": true
+  },
+  {
+   "cond": "skew",
+   "tech": "B Contour+kNN",
+   "gt": "GJ25MU6062",
+   "pred": "GJ25MU6062",
+   "conf": 22.510196208953857,
+   "ms": 8.4029270000201,
+   "char_acc": 1.0,
+   "exact": true,
+   "localised": true
+  },
+  {
+   "cond": "skew",
+   "tech": "C Deep OCR",
+   "gt": "GJ25MU6062",
+   "pred": "GJ25MU6062",
+   "conf": 99.59345519542694,
+   "ms": 23.19076200001291,
+   "char_acc": 1.0,
+   "exact": true,
+   "localised": true
+  },
+  {
+   "cond": "skew",
+   "tech": "A Tesseract",
+   "gt": "UP62YZ3348",
+   "pred": "UP62YZ3348",
+   "conf": 0.0,
+   "ms": 113.67102999997769,
+   "char_acc": 1.0,
+   "exact": true,
+   "localised": true
+  },
+  {
+   "cond": "skew",
+   "tech": "B Contour+kNN",
+   "gt": "UP62YZ3348",
+   "pred": "UP62YZ3348",
+   "conf": 50.43209981918335,
+   "ms": 8.419186999958583,
+   "char_acc": 1.0,
+   "exact": true,
+   "localised": true
+  },
+  {
+   "cond": "skew",
+   "tech": "C Deep OCR",
+   "gt": "UP62YZ3348",
+   "pred": "UP62YZ3348",
+   "conf": 99.70573902130127,
+   "ms": 21.965227999999115,
+   "char_acc": 1.0,
+   "exact": true,
+   "localised": true
+  },
+  {
+   "cond": "glare",
+   "tech": "A Tesseract",
+   "gt": "DL19EF0278",
+   "pred": "",
+   "conf": 0.0,
+   "ms": 0.0,
+   "char_acc": 0,
+   "exact": false,
+   "localised": false
+  },
+  {
+   "cond": "glare",
+   "tech": "B Contour+kNN",
+   "gt": "DL19EF0278",
+   "pred": "",
+   "conf": 0.0,
+   "ms": 0.0,
+   "char_acc": 0,
+   "exact": false,
+   "localised": false
+  },
+  {
+   "cond": "glare",
+   "tech": "C Deep OCR",
+   "gt": "DL19EF0278",
+   "pred": "",
+   "conf": 0.0,
+   "ms": 0.0,
+   "char_acc": 0,
+   "exact": false,
+   "localised": false
+  },
+  {
+   "cond": "glare",
+   "tech": "A Tesseract",
+   "gt": "GJ78BT0175",
+   "pred": "",
+   "conf": 0.0,
+   "ms": 0.0,
+   "char_acc": 0,
+   "exact": false,
+   "localised": false
+  },
+  {
+   "cond": "glare",
+   "tech": "B Contour+kNN",
+   "gt": "GJ78BT0175",
+   "pred": "",
+   "conf": 0.0,
+   "ms": 0.0,
+   "char_acc": 0,
+   "exact": false,
+   "localised": false
+  },
+  {
+   "cond": "glare",
+   "tech": "C Deep OCR",
+   "gt": "GJ78BT0175",
+   "pred": "",
+   "conf": 0.0,
+   "ms": 0.0,
+   "char_acc": 0,
+   "exact": false,
+   "localised": false
+  },
+  {
+   "cond": "glare",
+   "tech": "A Tesseract",
+   "gt": "AP24WG1754",
+   "pred": "",
+   "conf": 0.0,
+   "ms": 0.0,
+   "char_acc": 0,
+   "exact": false,
+   "localised": false
+  },
+  {
+   "cond": "glare",
+   "tech": "B Contour+kNN",
+   "gt": "AP24WG1754",
+   "pred": "",
+   "conf": 0.0,
+   "ms": 0.0,
+   "char_acc": 0,
+   "exact": false,
+   "localised": false
+  },
+  {
+   "cond": "glare",
+   "tech": "C Deep OCR",
+   "gt": "AP24WG1754",
+   "pred": "",
+   "conf": 0.0,
+   "ms": 0.0,
+   "char_acc": 0,
+   "exact": false,
+   "localised": false
+  },
+  {
+   "cond": "glare",
+   "tech": "A Tesseract",
+   "gt": "TS20JE7873",
+   "pred": "",
+   "conf": 0.0,
+   "ms": 0.0,
+   "char_acc": 0,
+   "exact": false,
+   "localised": false
+  },
+  {
+   "cond": "glare",
+   "tech": "B Contour+kNN",
+   "gt": "TS20JE7873",
+   "pred": "",
+   "conf": 0.0,
+   "ms": 0.0,
+   "char_acc": 0,
+   "exact": false,
+   "localised": false
+  },
+  {
+   "cond": "glare",
+   "tech": "C Deep OCR",
+   "gt": "TS20JE7873",
+   "pred": "",
+   "conf": 0.0,
+   "ms": 0.0,
+   "char_acc": 0,
+   "exact": false,
+   "localised": false
+  },
+  {
+   "cond": "glare",
+   "tech": "A Tesseract",
+   "gt": "RJ51TN9553",
+   "pred": "",
+   "conf": 0.0,
+   "ms": 0.0,
+   "char_acc": 0,
+   "exact": false,
+   "localised": false
+  },
+  {
+   "cond": "glare",
+   "tech": "B Contour+kNN",
+   "gt": "RJ51TN9553",
+   "pred": "",
+   "conf": 0.0,
+   "ms": 0.0,
+   "char_acc": 0,
+   "exact": false,
+   "localised": false
+  },
+  {
+   "cond": "glare",
+   "tech": "C Deep OCR",
+   "gt": "RJ51TN9553",
+   "pred": "",
+   "conf": 0.0,
+   "ms": 0.0,
+   "char_acc": 0,
+   "exact": false,
+   "localised": false
+  },
+  {
+   "cond": "glare",
+   "tech": "A Tesseract",
+   "gt": "WB33HR9996",
+   "pred": "",
+   "conf": 0.0,
+   "ms": 0.0,
+   "char_acc": 0,
+   "exact": false,
+   "localised": false
+  },
+  {
+   "cond": "glare",
+   "tech": "B Contour+kNN",
+   "gt": "WB33HR9996",
+   "pred": "",
+   "conf": 0.0,
+   "ms": 0.0,
+   "char_acc": 0,
+   "exact": false,
+   "localised": false
+  },
+  {
+   "cond": "glare",
+   "tech": "C Deep OCR",
+   "gt": "WB33HR9996",
+   "pred": "",
+   "conf": 0.0,
+   "ms": 0.0,
+   "char_acc": 0,
+   "exact": false,
+   "localised": false
+  },
+  {
+   "cond": "glare",
+   "tech": "A Tesseract",
+   "gt": "HR82CS1506",
+   "pred": "",
+   "conf": 0.0,
+   "ms": 0.0,
+   "char_acc": 0,
+   "exact": false,
+   "localised": false
+  },
+  {
+   "cond": "glare",
+   "tech": "B Contour+kNN",
+   "gt": "HR82CS1506",
+   "pred": "",
+   "conf": 0.0,
+   "ms": 0.0,
+   "char_acc": 0,
+   "exact": false,
+   "localised": false
+  },
+  {
+   "cond": "glare",
+   "tech": "C Deep OCR",
+   "gt": "HR82CS1506",
+   "pred": "",
+   "conf": 0.0,
+   "ms": 0.0,
+   "char_acc": 0,
+   "exact": false,
+   "localised": false
+  },
+  {
+   "cond": "glare",
+   "tech": "A Tesseract",
+   "gt": "UP18TZ6800",
+   "pred": "",
+   "conf": 0.0,
+   "ms": 0.0,
+   "char_acc": 0,
+   "exact": false,
+   "localised": false
+  },
+  {
+   "cond": "glare",
+   "tech": "B Contour+kNN",
+   "gt": "UP18TZ6800",
+   "pred": "",
+   "conf": 0.0,
+   "ms": 0.0,
+   "char_acc": 0,
+   "exact": false,
+   "localised": false
+  },
+  {
+   "cond": "glare",
+   "tech": "C Deep OCR",
+   "gt": "UP18TZ6800",
+   "pred": "",
+   "conf": 0.0,
+   "ms": 0.0,
+   "char_acc": 0,
+   "exact": false,
+   "localised": false
+  },
+  {
+   "cond": "glare",
+   "tech": "A Tesseract",
+   "gt": "GJ82KW7091",
+   "pred": "",
+   "conf": 0.0,
+   "ms": 0.0,
+   "char_acc": 0,
+   "exact": false,
+   "localised": false
+  },
+  {
+   "cond": "glare",
+   "tech": "B Contour+kNN",
+   "gt": "GJ82KW7091",
+   "pred": "",
+   "conf": 0.0,
+   "ms": 0.0,
+   "char_acc": 0,
+   "exact": false,
+   "localised": false
+  },
+  {
+   "cond": "glare",
+   "tech": "C Deep OCR",
+   "gt": "GJ82KW7091",
+   "pred": "",
+   "conf": 0.0,
+   "ms": 0.0,
+   "char_acc": 0,
+   "exact": false,
+   "localised": false
+  },
+  {
+   "cond": "glare",
+   "tech": "A Tesseract",
+   "gt": "KA66NG7608",
+   "pred": "",
+   "conf": 0.0,
+   "ms": 0.0,
+   "char_acc": 0,
+   "exact": false,
+   "localised": false
+  },
+  {
+   "cond": "glare",
+   "tech": "B Contour+kNN",
+   "gt": "KA66NG7608",
+   "pred": "",
+   "conf": 0.0,
+   "ms": 0.0,
+   "char_acc": 0,
+   "exact": false,
+   "localised": false
+  },
+  {
+   "cond": "glare",
+   "tech": "C Deep OCR",
+   "gt": "KA66NG7608",
+   "pred": "",
+   "conf": 0.0,
+   "ms": 0.0,
+   "char_acc": 0,
+   "exact": false,
+   "localised": false
+  },
+  {
+   "cond": "dirt",
+   "tech": "A Tesseract",
+   "gt": "AP65UV2733",
+   "pred": "TAPB5UV2733",
+   "conf": 0.0,
+   "ms": 109.64556600004016,
+   "char_acc": 0.8,
+   "exact": false,
+   "localised": true
+  },
+  {
+   "cond": "dirt",
+   "tech": "B Contour+kNN",
+   "gt": "AP65UV2733",
+   "pred": "AP63UV273J",
+   "conf": -165.24056577682495,
+   "ms": 9.46901899999375,
+   "char_acc": 0.8,
+   "exact": false,
+   "localised": true
+  },
+  {
+   "cond": "dirt",
+   "tech": "C Deep OCR",
+   "gt": "AP65UV2733",
+   "pred": "AP65UV2733",
+   "conf": 99.06763195991516,
+   "ms": 23.35792400003811,
+   "char_acc": 1.0,
+   "exact": true,
+   "localised": true
+  },
+  {
+   "cond": "dirt",
+   "tech": "A Tesseract",
+   "gt": "AP59EP2646",
+   "pred": "APSSEP2646",
+   "conf": 0.0,
+   "ms": 111.69811199999913,
+   "char_acc": 0.8,
+   "exact": false,
+   "localised": true
+  },
+  {
+   "cond": "dirt",
+   "tech": "B Contour+kNN",
+   "gt": "AP59EP2646",
+   "pred": "AP59EP26",
+   "conf": -23.177223205566406,
+   "ms": 7.124909000026491,
+   "char_acc": 0.8,
+   "exact": false,
+   "localised": true
+  },
+  {
+   "cond": "dirt",
+   "tech": "C Deep OCR",
+   "gt": "AP59EP2646",
+   "pred": "AP59EP2646",
+   "conf": 97.51292943954468,
+   "ms": 23.279838000007658,
+   "char_acc": 1.0,
+   "exact": true,
+   "localised": true
+  },
+  {
+   "cond": "dirt",
+   "tech": "A Tesseract",
+   "gt": "MH21PA8985",
+   "pred": "IMA21PA8985",
+   "conf": 0.0,
+   "ms": 110.14662900004168,
+   "char_acc": 0.8,
+   "exact": false,
+   "localised": true
+  },
+  {
+   "cond": "dirt",
+   "tech": "B Contour+kNN",
+   "gt": "MH21PA8985",
+   "pred": "M911PA8985",
+   "conf": -99.45225667953491,
+   "ms": 10.168780999947558,
+   "char_acc": 0.8,
+   "exact": false,
+   "localised": true
+  },
+  {
+   "cond": "dirt",
+   "tech": "C Deep OCR",
+   "gt": "MH21PA8985",
+   "pred": "MH21PA8985",
+   "conf": 98.48728716373444,
+   "ms": 24.081347999981517,
+   "char_acc": 1.0,
+   "exact": true,
+   "localised": true
+  },
+  {
+   "cond": "dirt",
+   "tech": "A Tesseract",
+   "gt": "AP13JJ9788",
+   "pred": "AP13JJ9788",
+   "conf": 0.0,
+   "ms": 110.72805599997082,
+   "char_acc": 1.0,
+   "exact": true,
+   "localised": true
+  },
+  {
+   "cond": "dirt",
+   "tech": "B Contour+kNN",
+   "gt": "AP13JJ9788",
+   "pred": "AM3JJ9788",
+   "conf": -210.1103827688429,
+   "ms": 7.77247099995293,
+   "char_acc": 0.8,
+   "exact": false,
+   "localised": true
+  },
+  {
+   "cond": "dirt",
+   "tech": "C Deep OCR",
+   "gt": "AP13JJ9788",
+   "pred": "AP13JJ9788",
+   "conf": 99.00747656822205,
+   "ms": 26.286846000061814,
+   "char_acc": 1.0,
+   "exact": true,
+   "localised": true
+  },
+  {
+   "cond": "dirt",
+   "tech": "A Tesseract",
+   "gt": "HR64YY7625",
+   "pred": "HR64YV7625",
+   "conf": 0.0,
+   "ms": 126.35421100003441,
+   "char_acc": 0.9,
+   "exact": false,
+   "localised": true
+  },
+  {
+   "cond": "dirt",
+   "tech": "B Contour+kNN",
+   "gt": "HR64YY7625",
+   "pred": "HR64Y625",
+   "conf": -146.84897363185883,
+   "ms": 7.410314000026119,
+   "char_acc": 0.8,
+   "exact": false,
+   "localised": true
+  },
+  {
+   "cond": "dirt",
+   "tech": "C Deep OCR",
+   "gt": "HR64YY7625",
+   "pred": "HR64YY7625",
+   "conf": 99.52189207077026,
+   "ms": 27.461350000066886,
+   "char_acc": 1.0,
+   "exact": true,
+   "localised": true
+  },
+  {
+   "cond": "dirt",
+   "tech": "A Tesseract",
+   "gt": "KA72GY3876",
+   "pred": "KA72GY3876",
+   "conf": 0.0,
+   "ms": 117.72508599995035,
+   "char_acc": 1.0,
+   "exact": true,
+   "localised": true
+  },
+  {
+   "cond": "dirt",
+   "tech": "B Contour+kNN",
+   "gt": "KA72GY3876",
+   "pred": "KA72QY3WL",
+   "conf": -177.44025574790106,
+   "ms": 8.273948000010023,
+   "char_acc": 0.6,
+   "exact": false,
+   "localised": true
+  },
+  {
+   "cond": "dirt",
+   "tech": "C Deep OCR",
+   "gt": "KA72GY3876",
+   "pred": "KA72GY3876",
+   "conf": 98.50291192531586,
+   "ms": 26.195134000090547,
+   "char_acc": 1.0,
+   "exact": true,
+   "localised": true
+  },
+  {
+   "cond": "dirt",
+   "tech": "A Tesseract",
+   "gt": "UP77JB4023",
+   "pred": "UP77JB4023",
+   "conf": 0.0,
+   "ms": 111.7372679999562,
+   "char_acc": 1.0,
+   "exact": true,
+   "localised": true
+  },
+  {
+   "cond": "dirt",
+   "tech": "B Contour+kNN",
+   "gt": "UP77JB4023",
+   "pred": "VP71JB4623",
+   "conf": -195.0417070388794,
+   "ms": 8.493869999938397,
+   "char_acc": 0.7,
+   "exact": false,
+   "localised": true
+  },
+  {
+   "cond": "dirt",
+   "tech": "C Deep OCR",
+   "gt": "UP77JB4023",
+   "pred": "UP77JB4023",
+   "conf": 94.45226625962691,
+   "ms": 24.058265999997275,
+   "char_acc": 1.0,
+   "exact": true,
+   "localised": true
+  },
+  {
+   "cond": "dirt",
+   "tech": "A Tesseract",
+   "gt": "HR75AY1821",
+   "pred": "IRTSAY182161",
+   "conf": 7.0,
+   "ms": 126.12260100002004,
+   "char_acc": 0.5,
+   "exact": false,
+   "localised": true
+  },
+  {
+   "cond": "dirt",
+   "tech": "B Contour+kNN",
+   "gt": "HR75AY1821",
+   "pred": "6175AY1821",
+   "conf": -174.5880103111267,
+   "ms": 8.59567899999547,
+   "char_acc": 0.8,
+   "exact": false,
+   "localised": true
+  },
+  {
+   "cond": "dirt",
+   "tech": "C Deep OCR",
+   "gt": "HR75AY1821",
+   "pred": "HR75AY1821",
+   "conf": 98.63681137561798,
+   "ms": 26.025808999975197,
+   "char_acc": 1.0,
+   "exact": true,
+   "localised": true
+  },
+  {
+   "cond": "dirt",
+   "tech": "A Tesseract",
+   "gt": "AP24UB6802",
+   "pred": "",
+   "conf": 0.0,
+   "ms": 0.0,
+   "char_acc": 0,
+   "exact": false,
+   "localised": false
+  },
+  {
+   "cond": "dirt",
+   "tech": "B Contour+kNN",
+   "gt": "AP24UB6802",
+   "pred": "",
+   "conf": 0.0,
+   "ms": 0.0,
+   "char_acc": 0,
+   "exact": false,
+   "localised": false
+  },
+  {
+   "cond": "dirt",
+   "tech": "C Deep OCR",
+   "gt": "AP24UB6802",
+   "pred": "",
+   "conf": 0.0,
+   "ms": 0.0,
+   "char_acc": 0,
+   "exact": false,
+   "localised": false
+  },
+  {
+   "cond": "dirt",
+   "tech": "A Tesseract",
+   "gt": "RJ21CU7916",
+   "pred": "RI210U7916",
+   "conf": 0.0,
+   "ms": 122.1021279999377,
+   "char_acc": 0.8,
+   "exact": false,
+   "localised": true
+  },
+  {
+   "cond": "dirt",
+   "tech": "B Contour+kNN",
+   "gt": "RJ21CU7916",
+   "pred": "RJ110U7116",
+   "conf": -127.46123385429382,
+   "ms": 8.69276200000968,
+   "char_acc": 0.7,
+   "exact": false,
+   "localised": true
+  },
+  {
+   "cond": "dirt",
+   "tech": "C Deep OCR",
+   "gt": "RJ21CU7916",
+   "pred": "RJ21CU7916",
+   "conf": 88.83711153810675,
+   "ms": 28.74809600007211,
+   "char_acc": 1.0,
+   "exact": true,
+   "localised": true
+  },
+  {
+   "cond": "new font",
+   "tech": "A Tesseract",
+   "gt": "WB23UM9994",
+   "pred": "WB23UM9994",
+   "conf": 65.0,
+   "ms": 116.70198600006643,
+   "char_acc": 1.0,
+   "exact": true,
+   "localised": true
+  },
+  {
+   "cond": "new font",
+   "tech": "B Contour+kNN",
+   "gt": "WB23UM9994",
+   "pred": "2JLX99J4",
+   "conf": -362.49890327453613,
+   "ms": 7.23257000004196,
+   "char_acc": 0.4,
+   "exact": false,
+   "localised": true
+  },
+  {
+   "cond": "new font",
+   "tech": "C Deep OCR",
+   "gt": "WB23UM9994",
+   "pred": "WB23UM9994",
+   "conf": 99.61243271827698,
+   "ms": 24.044007000043166,
+   "char_acc": 1.0,
+   "exact": true,
+   "localised": true
+  },
+  {
+   "cond": "new font",
+   "tech": "A Tesseract",
+   "gt": "HR87FL2579",
+   "pred": "HR87FL2579",
+   "conf": 90.0,
+   "ms": 114.68175499999234,
+   "char_acc": 1.0,
+   "exact": true,
+   "localised": true
+  },
+  {
+   "cond": "new font",
+   "tech": "B Contour+kNN",
+   "gt": "HR87FL2579",
+   "pred": "HR87FL2579",
+   "conf": -192.05414867401123,
+   "ms": 8.271270000022923,
+   "char_acc": 1.0,
+   "exact": true,
+   "localised": true
+  },
+  {
+   "cond": "new font",
+   "tech": "C Deep OCR",
+   "gt": "HR87FL2579",
+   "pred": "HR87FL2579",
+   "conf": 99.81495797634125,
+   "ms": 24.578541999972003,
+   "char_acc": 1.0,
+   "exact": true,
+   "localised": true
+  },
+  {
+   "cond": "new font",
+   "tech": "A Tesseract",
+   "gt": "GJ35ZC1021",
+   "pred": "GJ35ZC1021",
+   "conf": 90.0,
+   "ms": 114.31033800010937,
+   "char_acc": 1.0,
+   "exact": true,
+   "localised": true
+  },
+  {
+   "cond": "new font",
+   "tech": "B Contour+kNN",
+   "gt": "GJ35ZC1021",
+   "pred": "GJ85ZCI02I",
+   "conf": -132.41660976409912,
+   "ms": 8.331708999889997,
+   "char_acc": 0.7,
+   "exact": false,
+   "localised": true
+  },
+  {
+   "cond": "new font",
+   "tech": "C Deep OCR",
+   "gt": "GJ35ZC1021",
+   "pred": "GJ35ZC1021",
+   "conf": 99.70258355140686,
+   "ms": 25.742223999941416,
+   "char_acc": 1.0,
+   "exact": true,
+   "localised": true
+  },
+  {
+   "cond": "new font",
+   "tech": "A Tesseract",
+   "gt": "MH49BN7918",
+   "pred": "MH49BN7918",
+   "conf": 90.0,
+   "ms": 118.12361900001633,
+   "char_acc": 1.0,
+   "exact": true,
+   "localised": true
+  },
+  {
+   "cond": "new font",
+   "tech": "B Contour+kNN",
+   "gt": "MH49BN7918",
+   "pred": "MH49BN79I8",
+   "conf": -211.1409502029419,
+   "ms": 8.290846000022611,
+   "char_acc": 0.9,
+   "exact": false,
+   "localised": true
+  },
+  {
+   "cond": "new font",
+   "tech": "C Deep OCR",
+   "gt": "MH49BN7918",
+   "pred": "MH49BN7918",
+   "conf": 99.45746839046478,
+   "ms": 23.781638000059502,
+   "char_acc": 1.0,
+   "exact": true,
+   "localised": true
+  },
+  {
+   "cond": "new font",
+   "tech": "A Tesseract",
+   "gt": "KL53AD1481",
+   "pred": "KL53AD1481",
+   "conf": 78.0,
+   "ms": 118.99132999997164,
+   "char_acc": 1.0,
+   "exact": true,
+   "localised": true
+  },
+  {
+   "cond": "new font",
+   "tech": "B Contour+kNN",
+   "gt": "KL53AD1481",
+   "pred": "584I48I",
+   "conf": -214.55422810145785,
+   "ms": 6.488623999985066,
+   "char_acc": 0.30000000000000004,
+   "exact": false,
+   "localised": true
+  },
+  {
+   "cond": "new font",
+   "tech": "C Deep OCR",
+   "gt": "KL53AD1481",
+   "pred": "KL53AD1481",
+   "conf": 99.72348928451538,
+   "ms": 24.801489000083166,
+   "char_acc": 1.0,
+   "exact": true,
+   "localised": true
+  },
+  {
+   "cond": "new font",
+   "tech": "A Tesseract",
+   "gt": "MH32HH5664",
+   "pred": "MH32HH5664",
+   "conf": 0.0,
+   "ms": 113.65421599998626,
+   "char_acc": 1.0,
+   "exact": true,
+   "localised": true
+  },
+  {
+   "cond": "new font",
+   "tech": "B Contour+kNN",
+   "gt": "MH32HH5664",
+   "pred": "IMB32BB5664",
+   "conf": -251.58006581393153,
+   "ms": 9.17061300003752,
+   "char_acc": 0.6,
+   "exact": false,
+   "localised": true
+  },
+  {
+   "cond": "new font",
+   "tech": "C Deep OCR",
+   "gt": "MH32HH5664",
+   "pred": "MH32HH5664",
+   "conf": 99.85633671283722,
+   "ms": 25.10959799997181,
+   "char_acc": 1.0,
+   "exact": true,
+   "localised": true
+  },
+  {
+   "cond": "new font",
+   "tech": "A Tesseract",
+   "gt": "AP50AP5966",
+   "pred": "APSOAP5966",
+   "conf": 80.0,
+   "ms": 122.03749599996172,
+   "char_acc": 0.8,
+   "exact": false,
+   "localised": true
+  },
+  {
+   "cond": "new font",
+   "tech": "B Contour+kNN",
+   "gt": "AP50AP5966",
+   "pred": "AP50V5966",
+   "conf": -179.06945016649036,
+   "ms": 7.7011390000052415,
+   "char_acc": 0.8,
+   "exact": false,
+   "localised": true
+  },
+  {
+   "cond": "new font",
+   "tech": "C Deep OCR",
+   "gt": "AP50AP5966",
+   "pred": "AP50AP5966",
+   "conf": 99.74882662296295,
+   "ms": 23.929603000055977,
+   "char_acc": 1.0,
+   "exact": true,
+   "localised": true
+  },
+  {
+   "cond": "new font",
+   "tech": "A Tesseract",
+   "gt": "AP11ZF4389",
+   "pred": "AP11ZF4389",
+   "conf": 91.0,
+   "ms": 116.19863700002497,
+   "char_acc": 1.0,
+   "exact": true,
+   "localised": true
+  },
+  {
+   "cond": "new font",
+   "tech": "B Contour+kNN",
+   "gt": "AP11ZF4389",
+   "pred": "AP11ZF4889",
+   "conf": -170.5310411453247,
+   "ms": 8.370829000000413,
+   "char_acc": 0.9,
+   "exact": false,
+   "localised": true
+  },
+  {
+   "cond": "new font",
+   "tech": "C Deep OCR",
+   "gt": "AP11ZF4389",
+   "pred": "AP11ZF4389",
+   "conf": 99.68388855457306,
+   "ms": 24.116416999959256,
+   "char_acc": 1.0,
+   "exact": true,
+   "localised": true
+  },
+  {
+   "cond": "new font",
+   "tech": "A Tesseract",
+   "gt": "TN11RM8537",
+   "pred": "TN11RM8537",
+   "conf": 87.0,
+   "ms": 119.62740599994959,
+   "char_acc": 1.0,
+   "exact": true,
+   "localised": true
+  },
+  {
+   "cond": "new font",
+   "tech": "B Contour+kNN",
+   "gt": "TN11RM8537",
+   "pred": "TNIIRM8587",
+   "conf": -187.8625898361206,
+   "ms": 8.88164200000574,
+   "char_acc": 0.7,
+   "exact": false,
+   "localised": true
+  },
+  {
+   "cond": "new font",
+   "tech": "C Deep OCR",
+   "gt": "TN11RM8537",
+   "pred": "TN11RM8537",
+   "conf": 99.52130138874054,
+   "ms": 26.56563800007916,
+   "char_acc": 1.0,
+   "exact": true,
+   "localised": true
+  },
+  {
+   "cond": "new font",
+   "tech": "A Tesseract",
+   "gt": "UP35AA6795",
+   "pred": "UP35AA6795",
+   "conf": 90.0,
+   "ms": 116.53280000007271,
+   "char_acc": 1.0,
+   "exact": true,
+   "localised": true
+  },
+  {
+   "cond": "new font",
+   "tech": "B Contour+kNN",
+   "gt": "UP35AA6795",
+   "pred": "UP85M6795",
+   "conf": -185.57185067070856,
+   "ms": 7.776680999995733,
+   "char_acc": 0.7,
+   "exact": false,
+   "localised": true
+  },
+  {
+   "cond": "new font",
+   "tech": "C Deep OCR",
+   "gt": "UP35AA6795",
+   "pred": "UP35AA6795",
+   "conf": 99.70081210136414,
+   "ms": 24.825384999985545,
+   "char_acc": 1.0,
+   "exact": true,
+   "localised": true
+  }
+ ]
+}

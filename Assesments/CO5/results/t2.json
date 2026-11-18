@@ -1,0 +1,479 @@
+{
+ "rows": [
+  {
+   "plate": "TN09AB1234",
+   "cond": "day",
+   "tech": "A Otsu",
+   "ocr": "TNO9AB1234",
+   "char_acc": 0.9,
+   "exact": false,
+   "f1": 0.9448201018448952
+  },
+  {
+   "plate": "TN09AB1234",
+   "cond": "day",
+   "tech": "B Adaptive",
+   "ocr": "TNO9AB1234",
+   "char_acc": 0.9,
+   "exact": false,
+   "f1": 0.9208829682763332
+  },
+  {
+   "plate": "TN09AB1234",
+   "cond": "day",
+   "tech": "C CLAHE+Otsu",
+   "ocr": "TNO9AB1234",
+   "char_acc": 0.9,
+   "exact": false,
+   "f1": 0.9439385078118472
+  },
+  {
+   "plate": "KA05MN4821",
+   "cond": "day",
+   "tech": "A Otsu",
+   "ocr": "KAOSMN4821",
+   "char_acc": 0.8,
+   "exact": false,
+   "f1": 0.9527546695966097
+  },
+  {
+   "plate": "KA05MN4821",
+   "cond": "day",
+   "tech": "B Adaptive",
+   "ocr": "KAOSMN4821",
+   "char_acc": 0.8,
+   "exact": false,
+   "f1": 0.9246636048666506
+  },
+  {
+   "plate": "KA05MN4821",
+   "cond": "day",
+   "tech": "C CLAHE+Otsu",
+   "ocr": "KAOSMN4821",
+   "char_acc": 0.8,
+   "exact": false,
+   "f1": 0.948040684380667
+  },
+  {
+   "plate": "MH12DE1433",
+   "cond": "day",
+   "tech": "A Otsu",
+   "ocr": "MH12DE1433",
+   "char_acc": 1.0,
+   "exact": true,
+   "f1": 0.9428171760417108
+  },
+  {
+   "plate": "MH12DE1433",
+   "cond": "day",
+   "tech": "B Adaptive",
+   "ocr": "MH12DE1433",
+   "char_acc": 1.0,
+   "exact": true,
+   "f1": 0.920159334949775
+  },
+  {
+   "plate": "MH12DE1433",
+   "cond": "day",
+   "tech": "C CLAHE+Otsu",
+   "ocr": "MH12DE1433",
+   "char_acc": 1.0,
+   "exact": true,
+   "f1": 0.9475905139674233
+  },
+  {
+   "plate": "DL3CAF0001",
+   "cond": "day",
+   "tech": "A Otsu",
+   "ocr": "DL3CAFOOO1",
+   "char_acc": 0.7,
+   "exact": false,
+   "f1": 0.9451383678333407
+  },
+  {
+   "plate": "DL3CAF0001",
+   "cond": "day",
+   "tech": "B Adaptive",
+   "ocr": "DL3CAFOOO1",
+   "char_acc": 0.7,
+   "exact": false,
+   "f1": 0.9232848326501194
+  },
+  {
+   "plate": "DL3CAF0001",
+   "cond": "day",
+   "tech": "C CLAHE+Otsu",
+   "ocr": "DL3CAFOOO1",
+   "char_acc": 0.7,
+   "exact": false,
+   "f1": 0.9483411071019977
+  },
+  {
+   "plate": "TN22BX7305",
+   "cond": "night",
+   "tech": "A Otsu",
+   "ocr": "N22BX735",
+   "char_acc": 0.8,
+   "exact": false,
+   "f1": 0.6863694551121501
+  },
+  {
+   "plate": "TN22BX7305",
+   "cond": "night",
+   "tech": "B Adaptive",
+   "ocr": "7N22BX75C",
+   "char_acc": 0.6,
+   "exact": false,
+   "f1": 0.6627617665353515
+  },
+  {
+   "plate": "TN22BX7305",
+   "cond": "night",
+   "tech": "C CLAHE+Otsu",
+   "ocr": "TN22BX7305",
+   "char_acc": 1.0,
+   "exact": true,
+   "f1": 0.777060362239661
+  },
+  {
+   "plate": "AP39CR2468",
+   "cond": "night",
+   "tech": "A Otsu",
+   "ocr": "IP39CR246",
+   "char_acc": 0.8,
+   "exact": false,
+   "f1": 0.7069971244693961
+  },
+  {
+   "plate": "AP39CR2468",
+   "cond": "night",
+   "tech": "B Adaptive",
+   "ocr": "P39CR240",
+   "char_acc": 0.7,
+   "exact": false,
+   "f1": 0.6297737278591174
+  },
+  {
+   "plate": "AP39CR2468",
+   "cond": "night",
+   "tech": "C CLAHE+Otsu",
+   "ocr": "AP39CR2468",
+   "char_acc": 1.0,
+   "exact": true,
+   "f1": 0.8382929962845932
+  },
+  {
+   "plate": "KL07BW9150",
+   "cond": "night",
+   "tech": "A Otsu",
+   "ocr": "L07BW919",
+   "char_acc": 0.7,
+   "exact": false,
+   "f1": 0.6966675046789016
+  },
+  {
+   "plate": "KL07BW9150",
+   "cond": "night",
+   "tech": "B Adaptive",
+   "ocr": "",
+   "char_acc": 0.0,
+   "exact": false,
+   "f1": 0.6742536361316662
+  },
+  {
+   "plate": "KL07BW9150",
+   "cond": "night",
+   "tech": "C CLAHE+Otsu",
+   "ocr": "KLO7BW9150",
+   "char_acc": 0.9,
+   "exact": false,
+   "f1": 0.8908157710552921
+  },
+  {
+   "plate": "TS09EK6082",
+   "cond": "night",
+   "tech": "A Otsu",
+   "ocr": "BO9EK608",
+   "char_acc": 0.6,
+   "exact": false,
+   "f1": 0.6869113869863014
+  },
+  {
+   "plate": "TS09EK6082",
+   "cond": "night",
+   "tech": "B Adaptive",
+   "ocr": "SS09EK600",
+   "char_acc": 0.7,
+   "exact": false,
+   "f1": 0.7002275037513916
+  },
+  {
+   "plate": "TS09EK6082",
+   "cond": "night",
+   "tech": "C CLAHE+Otsu",
+   "ocr": "TSO9EK6082",
+   "char_acc": 0.9,
+   "exact": false,
+   "f1": 0.9037478705281091
+  },
+  {
+   "plate": "GJ01HH7786",
+   "cond": "glare",
+   "tech": "A Otsu",
+   "ocr": "GJ07786",
+   "char_acc": 0.7,
+   "exact": false,
+   "f1": 0.7249908487162057
+  },
+  {
+   "plate": "GJ01HH7786",
+   "cond": "glare",
+   "tech": "B Adaptive",
+   "ocr": "GJO1147786",
+   "char_acc": 0.7,
+   "exact": false,
+   "f1": 0.8248450813323005
+  },
+  {
+   "plate": "GJ01HH7786",
+   "cond": "glare",
+   "tech": "C CLAHE+Otsu",
+   "ocr": "GJO17786",
+   "char_acc": 0.7,
+   "exact": false,
+   "f1": 0.7814332571314979
+  },
+  {
+   "plate": "UP32LM5019",
+   "cond": "glare",
+   "tech": "A Otsu",
+   "ocr": "UP3019",
+   "char_acc": 0.6,
+   "exact": false,
+   "f1": 0.6885313531353136
+  },
+  {
+   "plate": "UP32LM5019",
+   "cond": "glare",
+   "tech": "B Adaptive",
+   "ocr": "UP32L15019",
+   "char_acc": 0.9,
+   "exact": false,
+   "f1": 0.81400458093769
+  },
+  {
+   "plate": "UP32LM5019",
+   "cond": "glare",
+   "tech": "C CLAHE+Otsu",
+   "ocr": "UP325019",
+   "char_acc": 0.8,
+   "exact": false,
+   "f1": 0.7599612215220554
+  },
+  {
+   "plate": "WB74AC3347",
+   "cond": "glare",
+   "tech": "A Otsu",
+   "ocr": "WC3347",
+   "char_acc": 0.6,
+   "exact": false,
+   "f1": 0.6927505221865607
+  },
+  {
+   "plate": "WB74AC3347",
+   "cond": "glare",
+   "tech": "B Adaptive",
+   "ocr": "WB74AC3347",
+   "char_acc": 1.0,
+   "exact": true,
+   "f1": 0.8456235827664399
+  },
+  {
+   "plate": "WB74AC3347",
+   "cond": "glare",
+   "tech": "C CLAHE+Otsu",
+   "ocr": "WEAC3347",
+   "char_acc": 0.7,
+   "exact": false,
+   "f1": 0.7930188679245284
+  },
+  {
+   "plate": "RJ14CV8652",
+   "cond": "glare",
+   "tech": "A Otsu",
+   "ocr": "RJ1452",
+   "char_acc": 0.6,
+   "exact": false,
+   "f1": 0.6833155080213904
+  },
+  {
+   "plate": "RJ14CV8652",
+   "cond": "glare",
+   "tech": "B Adaptive",
+   "ocr": "RJ14CV652",
+   "char_acc": 0.9,
+   "exact": false,
+   "f1": 0.8167371336929582
+  },
+  {
+   "plate": "RJ14CV8652",
+   "cond": "glare",
+   "tech": "C CLAHE+Otsu",
+   "ocr": "RJ14C552",
+   "char_acc": 0.7,
+   "exact": false,
+   "f1": 0.7421101011132674
+  }
+ ],
+ "summary": {
+  "A Otsu|day": {
+   "char_acc": 85.00000000000001,
+   "plate_acc": 25.0,
+   "f1": 94.6382578829139,
+   "n": 4
+  },
+  "A Otsu|night": {
+   "char_acc": 72.5,
+   "plate_acc": 0.0,
+   "f1": 69.42363678116872,
+   "n": 4
+  },
+  "A Otsu|glare": {
+   "char_acc": 62.5,
+   "plate_acc": 0.0,
+   "f1": 69.73970580148676,
+   "n": 4
+  },
+  "A Otsu|all": {
+   "char_acc": 73.33333333333334,
+   "plate_acc": 8.333333333333332,
+   "f1": 77.93386682185647,
+   "n": 12
+  },
+  "B Adaptive|day": {
+   "char_acc": 85.00000000000001,
+   "plate_acc": 25.0,
+   "f1": 92.22476851857195,
+   "n": 4
+  },
+  "B Adaptive|night": {
+   "char_acc": 49.99999999999999,
+   "plate_acc": 0.0,
+   "f1": 66.67541585693817,
+   "n": 4
+  },
+  "B Adaptive|glare": {
+   "char_acc": 87.5,
+   "plate_acc": 25.0,
+   "f1": 82.53025946823472,
+   "n": 4
+  },
+  "B Adaptive|all": {
+   "char_acc": 74.16666666666667,
+   "plate_acc": 16.666666666666664,
+   "f1": 80.47681461458161,
+   "n": 12
+  },
+  "C CLAHE+Otsu|day": {
+   "char_acc": 85.00000000000001,
+   "plate_acc": 25.0,
+   "f1": 94.69777033154838,
+   "n": 4
+  },
+  "C CLAHE+Otsu|night": {
+   "char_acc": 95.0,
+   "plate_acc": 50.0,
+   "f1": 85.24792500269139,
+   "n": 4
+  },
+  "C CLAHE+Otsu|glare": {
+   "char_acc": 72.50000000000001,
+   "plate_acc": 0.0,
+   "f1": 76.91308619228371,
+   "n": 4
+  },
+  "C CLAHE+Otsu|all": {
+   "char_acc": 84.16666666666667,
+   "plate_acc": 25.0,
+   "f1": 85.6195938421745,
+   "n": 12
+  }
+ },
+ "timing": {
+  "A Otsu": {
+   "plate_ms": 0.0764636000023226,
+   "full1080_ms": 3.2925316999694587
+  },
+  "B Adaptive": {
+   "plate_ms": 0.46825066665784715,
+   "full1080_ms": 14.822163399981036
+  },
+  "C CLAHE+Otsu": {
+   "plate_ms": 0.3306093333283873,
+   "full1080_ms": 9.382668099999592
+  }
+ },
+ "block": {
+  "11": 30.79759305521493,
+  "21": 59.67720153150972,
+  "31": 74.60283766258644,
+  "51": 84.72619497820754,
+  "101": 89.3579050684649,
+  "201": 90.54787871946961
+ },
+ "C": {
+  "0": 74.95260457261475,
+  "5": 87.65232461547525,
+  "10": 74.60283766258644,
+  "20": 43.47538423670336,
+  "30": 33.832384539627874
+ },
+ "clip": {
+  "1": {
+   "f1": 73.59742924562542,
+   "noise_gain": 1.0080480266118073
+  },
+  "2": {
+   "f1": 81.08050559748754,
+   "noise_gain": 1.1004020619595414
+  },
+  "4": {
+   "f1": 83.15939285239348,
+   "noise_gain": 1.2693303957399011
+  },
+  "8": {
+   "f1": 81.20898536014495,
+   "noise_gain": 1.5376850951715713
+  },
+  "16": {
+   "f1": 80.78097958050334,
+   "noise_gain": 1.8320176262409533
+  },
+  "40": {
+   "f1": 81.61422291617913,
+   "noise_gain": 2.139408840409925
+  }
+ },
+ "tiles": {
+  "2": 68.64872699520896,
+  "4": 77.50201760894772,
+  "8": 81.08050559748754,
+  "16": 69.83311526874799
+ },
+ "order": {
+  "blur_then_clahe": 81.08050559748754,
+  "clahe_then_blur": 82.75113696015731,
+  "no_blur": 77.70383922793687
+ },
+ "annot": {
+  "plate": "UP32LM5019",
+  "ocr_acc_clean": 80.0,
+  "ocr_acc_after_in_place": 0.0,
+  "original_unchanged_when_copy_used": true,
+  "original_unchanged_when_in_place": false
+ },
+ "clean_reference": {
+  "char_acc": 93.33333333333334,
+  "plate_acc": 50.0
+ }
+}

@@ -1,0 +1,10 @@
+A 0 fps=24.9 age=8ms p95=10 notproc=1 ovf=0 cpu=81%
+B 0 fps=24.8 age=10ms p95=20 notproc=2 ovf=1 cpu=86%
+B2 0 fps=24.9 age=8ms p95=13 notproc=1 ovf=0 cpu=84%
+C 0 fps=12.5 age=8ms p95=10 notproc=150 ovf=0 cpu=50%
+A 80 fps=5.8 age=945ms p95=1079 notproc=233 ovf=204 cpu=53%
+B 80 fps=8.7 age=28ms p95=44 notproc=197 ovf=195 cpu=43%
+B2 80 fps=8.6 age=1092ms p95=1206 notproc=197 ovf=167 cpu=44%
+C 80 fps=3.5 age=718ms p95=1069 notproc=258 ovf=127 cpu=71%
+unbounded age_max=13033 ms at 20 s
+done
